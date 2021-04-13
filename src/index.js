@@ -1,13 +1,42 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./OLD/Main";
+
+import App from "./Main";
+
 import "./index.css";
-import ReactFullpage from '@fullpage/react-fullpage';
-import App from "./Main"
+import "./styles.css";
+import "./overrides.css";
 
+ReactDOM.render(<App/>, document.getElementById("root"));
 
+/*class MySection extends React.Component {
+  render() {
+    return (
+      <div className="section">
+        <h3>{this.props.content}</h3>
+      </div>
+    );
+  }
+}
 
-ReactDOM.render(
+const FullpageWrapper = () => (
+  <ReactFullpage
+    navigation
+    sectionsColor={["#282c34", "#ff5f45", "#0798ec", "#f8d568"]}
+    render={({ state, fullpageApi }) => {
+      return (
+        <div>
+          <MySection content={"Page 1"} />
+          <MySection content={"Page 2"} />
+          <MySection content={"Page 3"} />
+          <MySection content={"Page 4"} />
+        </div>
+      );
+    }}
+  />
+);*/
+
+/*ReactDOM.render(
 <App />, 
-document.getElementById('root'));
+document.getElementById('root'));*/
 
