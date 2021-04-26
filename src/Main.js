@@ -2,7 +2,10 @@ import React from "react";
 import ReactFullpage from '@fullpage/react-fullpage';
 import "fullpage.js/vendors/scrolloverflow";
 
-import MySection from "./Section"
+import Section1 from "./Section1"
+import Section2 from "./Section2"
+import Section3 from "./Section3"
+import Section4 from "./Section4"
 
 import "./styles.css";
 import "./overrides.css";
@@ -14,14 +17,14 @@ class App extends React.Component {
         return(
             <ReactFullpage
                 navigation
-                sectionsColor={["#282c34", "#ff5f45", "#0798ec", "#f8d568"]}
+                sectionsColor={["#ffffff", "#ff5f45", "#0798ec", "#f8d568"]}
                 render = {({ state, fullpageApi}) => {
                     return(
                         <div>
-                            <MySection content={"Page 1"} />
-                            <MySection content={"Page 2"} />
-                            <MySection content={"Page 3"} />
-                            <MySection content={"Page 4"} />
+                            <Section1 content={"Page 1"} />
+                            <Section2 content={"Page 2"} />
+                            <Section3 content={"Page 3"} />
+                            <Section4 content={"Page 4"} />
                         </div>
                     );
                 }}

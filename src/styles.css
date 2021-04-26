@@ -1,10 +1,11 @@
 body {
-    font-family: arial, helvetica;
+  font-family: 'Times New Roman', Times, serif;
   }
   
   h3 {
     font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: #fff;
+    color: black;
     font-weight: 700;
   }
