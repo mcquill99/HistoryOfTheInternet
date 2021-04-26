@@ -4,7 +4,7 @@ class Section1 extends React.Component {
     render() {
       return (
         <div className="section">
-          <h3>{this.props.content}</h3>
+          <h1>History of the Internet</h1>
         </div>
       );
     }

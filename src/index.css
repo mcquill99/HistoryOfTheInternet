@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 h1, h2, p, ul, li {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif
 }
 ul.header li {
   display: inline;
@@ -33,6 +33,7 @@ ul.header li a {
 .content li {
   margin-bottom: 10px;
 }
+
 /*.active {
   background-color: #ff4040;
 }*/

@@ -21,7 +21,7 @@ class App extends React.Component {
                 render = {({ state, fullpageApi}) => {
                     return(
                         <div>
-                            <Section1 content={"Page 1"} />
+                            <Section1 />
                             <Section2 content={"Page 2"} />
                             <Section3 content={"Page 3"} />
                             <Section4 content={"Page 4"} />
