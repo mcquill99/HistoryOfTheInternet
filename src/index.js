@@ -6,7 +6,7 @@ import App from "./Main";
 import "./index.css";
 import "./styles.css";
 import "./overrides.css";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 
 import $ from 'jquery'

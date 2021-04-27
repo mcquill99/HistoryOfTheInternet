@@ -5,8 +5,8 @@ class Section1 extends React.Component {
     render() {
       return (
         <div className="section">
-          <br /><br /><br />
-          <div className="frameTwo" style={{ backgroundImage: `url(${frameTwo})` }}>
+          <br /><br /><br /><br /><br />
+          <div className="frameOne" style={{ backgroundImage: `url(${frameOne})` }}>
           <h1>History of the World Wide Web</h1>
           <p>Here is some information about the beginning of the World Wide Web</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis condimentum erat. Fusce varius convallis lorem ac tristique. Vestibulum a velit semper, ultrices nulla vitae, vestibulum dolor. Aenean porta semper velit. Praesent congue quam eu neque fringilla volutpat. Nulla at risus ut urna tempor egestas non ut dui. Morbi porta odio sodales magna scelerisque, et ornare arcu porttitor.</p>

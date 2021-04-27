@@ -46,6 +46,25 @@ body {
 
   }
 
+  .frameFour{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 160px;
+    padding-left: 20px;
+    text-align: left;
+    word-wrap: break-word;
+
+  }
+
+  .frameFour p{
+    padding-right: 50px;
+
+  }
+
 
   .section p {
     color: black;
