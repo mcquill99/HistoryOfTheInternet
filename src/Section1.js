@@ -16,8 +16,6 @@ class Section1 extends React.Component {
               </p>
               </div>
           </div>
-  
-          <button type = "button" class = "btn btn-primary" > Test </button>
           {/* <img src={frameOne} /> */}
         </div>
       );
