@@ -12,18 +12,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-bottom: 400px;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-top: 180px;
-    padding-left: 20px;
+    min-height: 100%;
     text-align: left;
-    word-wrap: break-word;
+  }
+
+  .frameOne .layout{
+  padding-top: 17%;
+  padding-left: 2%;
+  padding-right: 4%;
 
   }
 
-  .frameOne p{
-    padding-right: 50px;
+  .layout p{
+    /* margin-right: 180px; */
+    /* padding-right: 180px; */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto;
+
 
   }
 
@@ -31,7 +40,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 160px;
