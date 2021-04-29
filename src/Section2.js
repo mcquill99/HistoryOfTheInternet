@@ -37,9 +37,69 @@ class Section2 extends React.Component {
               </div>
 
             <div class="row">
+
+              {/* LEFT COLUMN */}
               <div class="column left">
-                <h2>Column 1</h2>
-                <p>Some text..</p>
+              
+              {/* MILESTONES */}
+              <table>
+                <tbody>
+                  <tr>
+                    <td>MILESTONES</td>
+                    </tr>
+                    <tr>
+                      <td className="itemList">
+                        <ul>
+                          <li><a>Milestone 1</a></li>
+                          <li><a>Milestone 2</a></li>
+                          <li><a>Milestone 3</a></li>
+                          <li><a>Milestone 4</a></li>
+                          <li><a>Milestone 5</a></li>
+                        </ul>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              {/* LINKS */}
+              <table>
+                <tbody>
+                  <tr>
+                    <td>MORE LINKS</td>
+                    </tr>
+                    <tr>
+                      <td className="itemList">
+                        <ul>
+                          <li><a>Milestone 1</a></li>
+                          <li><a>Milestone 2</a></li>
+                          <li><a>Milestone 3</a></li>
+                          <li><a>Milestone 4</a></li>
+                          <li><a>Milestone 5</a></li>
+                        </ul>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              {/* WEBSITES */}
+              <table>
+                <tbody>
+                  <tr>
+                    <td>WEBSITES</td>
+                    </tr>
+                    <tr>
+                      <td className="itemList">
+                        <ul>
+                          <li><a>Milestone 1</a></li>
+                          <li><a>Milestone 2</a></li>
+                          <li><a>Milestone 3</a></li>
+                          <li><a>Milestone 4</a></li>
+                        </ul>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+
               </div>
               <div class="column middle">
                   <h2>Column 2</h2>
