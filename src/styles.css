@@ -1,12 +1,21 @@
 
 
 body {
-  font-family: 'Times New Roman', Times, serif;
   }
 
   .section h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+
+  }
+
+  .section.two table{
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .section.two p{
+    font-family: Arial, Helvetica, sans-serif;
 
   }
 
@@ -102,9 +111,9 @@ body {
 
   }
 
-.column {
+.column{
   float: left;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .eraTwoLogo {
@@ -112,9 +121,38 @@ body {
   background-color: pink;
 }
 
+.eraTwoWelcome {
+  width: 75%;
+  background-color: #D8C978;
+}
+
+.eraTwoWelcome h5{
+  font-family:Arial, sans-serif;
+  font-size: 16px;
+  margin: 0%;
+  padding-left: 5px;
+}
+
 .eraTwoNav {
-  width: 76%;
-  background-color: purple;
+  width: 100%;
+}
+
+
+.eraTwoNav table{
+  border-collapse:collapse;
+  border-spacing:0;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.eraTwoNav table th{
+  border: black 1px solid;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:5px 5px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .left {
@@ -250,8 +288,9 @@ body {
   }
 
 
-  .section p {
+ .section p {
     color: black;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   h3 {

@@ -5,7 +5,7 @@ import backgroundTwo from "./images/winxpproblur.png";
 class Section2 extends React.Component {
   render() {
     return (
-      <div className="section">
+      <div className="section two">
          <div className="background" style={{ backgroundImage: `url(${backgroundTwo})` }}>
         <br />
         <div className="frameTwo" style={{ backgroundImage: `url(${frameTwo})` }}>
@@ -16,8 +16,23 @@ class Section2 extends React.Component {
                 <div class="column eraTwoLogo">
                   <h2>Logo</h2>
                 </div>
-                <div class="column eraTwoNav">
-                    <h2>Column 2</h2>
+                <div class="column eraTwoWelcome">
+                    <h5>Welcome to the Late 1990s</h5>
+                      <div class="row">
+                        <div class="column eraTwoNav">
+                        <table class="tg">
+                          <thead>
+                            <tr>
+                              <th>EARLY 90s</th>
+                              <th style={{backgroundColor: '#FFFFBA'}}>LATE 90s</th>
+                              <th>2000s</th>
+                              <th>PRESENT</th>
+                              <th style={{width: '50%'}}></th>
+                            </tr>
+                          </thead>
+                          </table>
+                        </div>
+                      </div>
                 </div>
               </div>
 
