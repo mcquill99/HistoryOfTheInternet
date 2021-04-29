@@ -18,6 +18,10 @@ class Section2 extends React.Component {
             <iframe id="google-site" width={'100%'} height={'95%'} src="https://oldgoogle.neocities.org/search-1998.html?q=apple&num=10"></iframe>
             </div>
 
+            <div className="wrap" id="pizza" style={{display: 'none'}}>
+            <iframe id="pizza-site" width={'100%'} height={'95%'} src="https://www.pizzahut.com/assets/pizzanet/home.html"></iframe>
+            </div>
+
           {/* <object id='google' type="text/html" data="" style={{display: 'none'}} width={'100%'} height={'100%'}></object> */}
             {/* NAVBAR */}
             <div id="f2content">
@@ -157,7 +161,7 @@ class Section2 extends React.Component {
 
               <br />
 
-              <img src={pizzaHut} width={'100%'}/>
+              <img onClick={Pizza} src={pizzaHut} width={'100%'}/>
 
 
               {/* PEOPLE */}
@@ -212,14 +216,24 @@ function Search() {
   document.getElementById('google-site').src += '';
   console.log(document.getElementById('google-site').src)
 
-  var browser = document.getElementById('google-site');
   browserDiv.style.display = 'contents';
 }
 
 function HideSearch(){
   document.getElementById('f2content').style.display = 'block';
   document.getElementById('google').style.display = 'none';
+  document.getElementById('pizza').style.display = 'none';
   document.getElementById('back-btn').style.display = 'none';
+}
+
+function Pizza() {
+  var browserDiv = document.getElementById('pizza');
+  var browser = document.getElementById('pizza-site');
+
+  document.getElementById('f2content').style.display = 'none';
+  document.getElementById('back-btn').style.display = 'block';
+
+  browserDiv.style.display = 'contents';
 }
 
 export default Section2;
