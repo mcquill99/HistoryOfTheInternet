@@ -2,6 +2,7 @@ import React from "react";
 import frameTwo from "./images/frameTwo.png";
 import backgroundTwo from "./images/winxpproblur.png";
 import back from "./images/back.jpg";
+import pizzaHut from "./images/pizza-hut-1998.gif"
 
 class Section2 extends React.Component {
   render() {
@@ -69,6 +70,8 @@ class Section2 extends React.Component {
                   </tbody>
                 </table>
 
+                <br />
+
               {/* LINKS */}
               <table>
                 <tbody>
@@ -88,6 +91,8 @@ class Section2 extends React.Component {
                     </tr>
                   </tbody>
                 </table>
+
+                <br />
 
               {/* WEBSITES */}
               <table>
@@ -148,31 +153,19 @@ class Section2 extends React.Component {
                   </tbody>
                 </table>
 
-              {/* LINKS */}
-              <table>
-                <tbody>
-                  <tr>
-                    <td>MORE LINKS</td>
-                    </tr>
-                    <tr>
-                      <td className="itemList">
-                        <ul>
-                          <li><a>Milestone 1</a></li>
-                          <li><a>Milestone 2</a></li>
-                          <li><a>Milestone 3</a></li>
-                          <li><a>Milestone 4</a></li>
-                          <li><a>Milestone 5</a></li>
-                        </ul>
-                        </td>
-                    </tr>
-                  </tbody>
-                </table>
+              {/* AD */}
 
-              {/* WEBSITES */}
+              <br />
+
+              <img src={pizzaHut} width={'100%'}/>
+
+
+              {/* PEOPLE */}
+              <br /><br />
               <table>
                 <tbody>
                   <tr>
-                    <td>WEBSITES</td>
+                    <td>PEOPLE</td>
                     </tr>
                     <tr>
                       <td className="itemList">
