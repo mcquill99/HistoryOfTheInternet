@@ -22,7 +22,7 @@ body {
   .frameOne .layout{
     position: absolute;
     top: 22%;
-    right: 1%;
+    right: 0.7%;
     left: 1%;
     height: 74%;
     overflow: scroll;
@@ -54,8 +54,8 @@ body {
   .frameTwo .layout{
     position: absolute;
     top: 19%;
-    right: 1%;
-    left: 1%;
+    right: 0.6%;
+    left: 0.7%;
     height: 80%;
     overflow: scroll;
 
@@ -74,10 +74,10 @@ body {
 
   .frameThree .layout{
     position: absolute;
-    top: 16%;
-    right: 1%;
-    left: 1%;
-    height: 81%;
+    top: 15.5%;
+    right: 0.05%;
+    left: 0%;
+    height: 82%;
     overflow: scroll;
 
   }
@@ -96,8 +96,8 @@ body {
   .frameFour .layout{
     position: absolute;
     top: 12%;
-    right: 1%;
-    left: 1%;
+    right: 0%;
+    left: 0.5%;
     height: 88%;
     overflow: scroll;
 
