@@ -1,3 +1,5 @@
+
+
 body {
   font-family: 'Times New Roman', Times, serif;
   }
@@ -21,13 +23,43 @@ body {
 
   .frameOne .layout{
     position: absolute;
-    top: 22%;
-    right: 0.7%;
+    top: 21.9%;
+    right: 0.8%;
     left: 1%;
     height: 74%;
     overflow: scroll;
 
+
   }
+
+    /* width */
+  ::-webkit-scrollbar {
+    width: 23px;
+    
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #aaaaaa;
+  }
+
+  ::-webkit-scrollbar-corner{
+    background: #808080;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: url('./images/1996scrollBar.png');
+    
+    background-size: 100% 100%;
+    transform: rotate
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    filter: brightness(50%);
+  }
+
 
   .layout p{
     /* margin-right: 180px; */
