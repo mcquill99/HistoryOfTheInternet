@@ -9,8 +9,8 @@ class Section2 extends React.Component {
          <div className="background" style={{ backgroundImage: `url(${backgroundTwo})` }}>
         <br />
         <div className="frameTwo" style={{ backgroundImage: `url(${frameTwo})` }}>
-          <div className="layout">
-
+          <div className="layout" id="f2content">
+          <object id='google' type="text/html" data="" style={{display: 'none'}} width={'100%'} height={'100%'}></object>
             {/* NAVBAR */}
             <div class="row">
                 <div class="column eraTwoLogo">
@@ -180,12 +180,16 @@ class Section2 extends React.Component {
                 </table>
               </div>
               {/* -----END RIGHT COLUMN----- */}
-
-
-
+            
             </div>
+            {/* -----END COLUMN ROW----- */}
+
           </div>
+
+
+
         </div>
+
         </div>
     </div>
 
@@ -195,8 +199,14 @@ class Section2 extends React.Component {
 
 function Search() {
   var q = document.getElementById('site-search').value;
-  var url = "https://www.google.com/search?q=" + q;
-  window.open(url);
+  var browser = document.getElementById('google');
+  var url = "https://oldgoogle.neocities.org/search-1998.html?q=" + q;
+
+  // document.getElementById('f2content').style.display = 'none';
+
+  browser.data = url;
+
+  browser.style.display = 'block';
 }
 
 export default Section2;
