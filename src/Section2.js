@@ -1,6 +1,7 @@
 import React from "react";
 import frameTwo from "./images/frameTwo.png";
 import backgroundTwo from "./images/winxpproblur.png";
+import back from "./images/back.jpg";
 
 class Section2 extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class Section2 extends React.Component {
          <div className="background" style={{ backgroundImage: `url(${backgroundTwo})` }}>
         <br />
         <div className="frameTwo" style={{ backgroundImage: `url(${frameTwo})` }}>
+        <img id="back-btn" src={back} style={{display: 'none'}} onClick={HideSearch}/>
           <div className="layout">
           <div className="wrap" id="google" style={{display: 'none'}}>
             <iframe width={'100%'} height={'95%'} src="https://oldgoogle.neocities.org/search-1998.html?q=apple&num=10"></iframe>
@@ -208,10 +210,17 @@ function Search() {
   var url = "https://oldgoogle.neocities.org/search-1998.html?q=" + q;
 
   document.getElementById('f2content').style.display = 'none';
+  document.getElementById('back-btn').style.display = 'block';
 
   browser.data = url;
 
   browser.style.display = 'contents';
+}
+
+function HideSearch(){
+  document.getElementById('f2content').style.display = 'block';
+  document.getElementById('google').style.display = 'none';
+  document.getElementById('back-btn').style.display = 'none';
 }
 
 export default Section2;

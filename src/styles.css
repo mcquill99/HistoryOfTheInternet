@@ -50,28 +50,28 @@ body {
   }
 
     /* width */
-  .frameOne ::-webkit-scrollbar {
+  .wrap ::-webkit-scrollbar, .frameOne ::-webkit-scrollbar {
     width: 23px;
     
   }
 
   /* Track */
-   .frameOne ::-webkit-scrollbar-track {
+  .wrap ::-webkit-scrollbar-track , .frameOne ::-webkit-scrollbar-track {
     background: #aaaaaa;
   }
 
-  .frameOne ::-webkit-scrollbar-corner{
+  .wrap ::-webkit-scrollbar-corner, .frameOne ::-webkit-scrollbar-corner{
     background: #808080;
   }
 
   /* Handle */
-  .frameOne ::-webkit-scrollbar-thumb {
+  .wrap ::-webkit-scrollbar-thumb, .frameOne ::-webkit-scrollbar-thumb {
     background: url('./images/1996scrollBar.png');
     background-size: cover;
   }
 
   /* Handle on hover */
-  .frameOne ::-webkit-scrollbar-thumb:hover {
+  .wrap ::-webkit-scrollbar-thumb:hover, .frameOne ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/1996scrollBar.png');
     background-size: cover;
   }
@@ -255,6 +255,12 @@ body {
 
 .searchBtn {
   margin-left: 10px;
+}
+
+#back-btn{
+  position: absolute;
+  top: 8%;
+  left: 1%;
 }
 
 .row:after {
