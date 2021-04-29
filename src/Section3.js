@@ -1,10 +1,12 @@
 import React from "react";
 import frameThree from "./images/frameThree.png";
+import backgroundThree from "./images/mac-leopard-blur.png";
 
 class Section3 extends React.Component {
   render() {
     return (
       <div className="section">
+        <div className="background" style={{ backgroundImage: `url(${backgroundThree})` }}>
       <br />
       <div className="frameThree" style={{ backgroundImage: `url(${frameThree})` }}>
         <div className="layout">
@@ -17,6 +19,7 @@ class Section3 extends React.Component {
           </div>
       </div>
       {/* <img src={frameOne} /> */}
+    </div>
     </div>
     );
   }
