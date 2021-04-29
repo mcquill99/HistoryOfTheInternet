@@ -33,31 +33,30 @@ body {
   }
 
     /* width */
-  ::-webkit-scrollbar {
+  .frameOne ::-webkit-scrollbar {
     width: 23px;
     
   }
 
   /* Track */
-  ::-webkit-scrollbar-track {
+   .frameOne ::-webkit-scrollbar-track {
     background: #aaaaaa;
   }
 
-  ::-webkit-scrollbar-corner{
+  .frameOne ::-webkit-scrollbar-corner{
     background: #808080;
   }
 
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+  .frameOne ::-webkit-scrollbar-thumb {
     background: url('./images/1996scrollBar.png');
-    
-    background-size: 100% 100%;
-    transform: rotate
+    background-size: cover;
   }
 
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    filter: brightness(50%);
+  .frameOne ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/1996scrollBar.png');
+    background-size: cover;
   }
 
 
@@ -87,14 +86,20 @@ body {
 
   .frameTwo .layout{
     position: absolute;
+<<<<<<< Updated upstream
     top: 20%;
     right: 0.6%;
+=======
+    top: 19.7%;
+    right: 0.7%;
+>>>>>>> Stashed changes
     left: 0.7%;
     height: 80%;
     overflow: scroll;
 
   }
 
+<<<<<<< Updated upstream
 .column {
   float: left;
   padding: 10px;
@@ -132,6 +137,35 @@ body {
 }
 
   /* ------------------------------- */
+=======
+    /* width */
+    .frameTwo ::-webkit-scrollbar {
+      width: 20px;
+      
+    }
+  
+    /* Track */
+     .frameTwo ::-webkit-scrollbar-track {
+      background: #fffbff
+    }
+  
+    .frameTwo ::-webkit-scrollbar-corner{
+      background: rgb(230, 228, 230)
+    }
+  
+    /* Handle */
+    .frameTwo ::-webkit-scrollbar-thumb {
+      background: url('./images/early2000sScroll.png');
+      background-size: 100% 100%;
+    }
+  
+    /* Handle on hover */
+    .frameTwo ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/early2000sScroll.png');
+      background-size: 100% 100%;
+    }
+  
+>>>>>>> Stashed changes
 
   .frameThree{
     position: relative;
@@ -146,12 +180,39 @@ body {
 
   .frameThree .layout{
     position: absolute;
-    top: 15.5%;
+    top: 17.9%;
     right: 0.05%;
-    left: 0%;
+    left: 0.35%;
     height: 82%;
     overflow: scroll;
 
+  }
+
+  /* width */
+  .frameThree ::-webkit-scrollbar {
+    width: 15px;
+    
+  }
+
+  /* Track */
+   .frameThree ::-webkit-scrollbar-track {
+    background: #fafafa
+  }
+
+  .frameThree ::-webkit-scrollbar-corner{
+    background: #dadada
+  }
+
+  /* Handle */
+  .frameThree ::-webkit-scrollbar-thumb {
+    background: url('./images/late2000sScroll.png');
+    background-size: 100% 100%;
+  }
+
+  /* Handle on hover */
+  .frameThree ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/late2000sScroll.png');
+    background-size: 100% 100%;
   }
 
   .frameFour{
@@ -173,6 +234,19 @@ body {
     height: 88%;
     overflow: scroll;
 
+  }
+
+  
+  /* width */
+  .frameFour ::-webkit-scrollbar {
+    width: 15px;
+    
+  }
+
+
+  /* Handle on hover */
+  .frameFour ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
   }
 
 
