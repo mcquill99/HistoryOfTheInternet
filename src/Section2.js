@@ -99,23 +99,104 @@ class Section2 extends React.Component {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+              {/* -----END LEFT COLUMN----- */}
 
-              </div>
+              
+              {/* MIDDLE COLUMN */}
               <div class="column middle">
-                  <h2>Column 2</h2>
-                  <p>Some text..</p>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Section 1</td>
+                    </tr>
+                    <tr>
+                      <td>Section 2</td>
+                      </tr>
+                      <tr>
+                        <td>Section 3</td>
+                        </tr>
+                  </tbody>
+                </table>
               </div>
+              {/* -----END MIDDLE COLUMN----- */}
+
+              
+              {/* RIGHT COLUMN */}
               <div class="column right">
-                <h2>Column 3</h2>
-                <p>Some text..</p>
+              
+              {/* SEARCH THE WEB */}
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Search the Web</td>
+                    </tr>
+                    <tr>
+                      <td className="itemList">
+                      <input type="search" id="site-search" name="q" aria-label="Search through site content" style={{width: '70%'}} />
+                      <input onClick={Search} className="searchBtn" type="image" border="0" src="http://www.alibris.com/images/go.gif" align="absmiddle"></input>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              {/* LINKS */}
+              <table>
+                <tbody>
+                  <tr>
+                    <td>MORE LINKS</td>
+                    </tr>
+                    <tr>
+                      <td className="itemList">
+                        <ul>
+                          <li><a>Milestone 1</a></li>
+                          <li><a>Milestone 2</a></li>
+                          <li><a>Milestone 3</a></li>
+                          <li><a>Milestone 4</a></li>
+                          <li><a>Milestone 5</a></li>
+                        </ul>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              {/* WEBSITES */}
+              <table>
+                <tbody>
+                  <tr>
+                    <td>WEBSITES</td>
+                    </tr>
+                    <tr>
+                      <td className="itemList">
+                        <ul>
+                          <li><a>Milestone 1</a></li>
+                          <li><a>Milestone 2</a></li>
+                          <li><a>Milestone 3</a></li>
+                          <li><a>Milestone 4</a></li>
+                        </ul>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
+              {/* -----END RIGHT COLUMN----- */}
+
+
+
             </div>
           </div>
         </div>
         </div>
     </div>
+
     );
   }
+}
+
+function Search() {
+  var q = document.getElementById('site-search').value;
+  var url = "https://www.google.com/search?q=" + q;
+  window.open(url);
 }
 
 export default Section2;
