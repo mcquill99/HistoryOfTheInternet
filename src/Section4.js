@@ -1,10 +1,12 @@
 import React from "react";
 import frameFour from "./images/frameFour.png";
+import backgroundFour from "./images/bigsurblur.png";
 
 class Section4 extends React.Component {
   render() {
     return (
       <div className="section">
+        <div className="background" style={{ backgroundImage: `url(${backgroundFour})` }}>
       <br />
       <div className="frameFour" style={{ backgroundImage: `url(${frameFour})` }}>
         <div className="layout">
@@ -17,6 +19,7 @@ class Section4 extends React.Component {
           </div>
       </div>
       {/* <img src={frameOne} /> */}
+    </div>
     </div>
     );
   }
