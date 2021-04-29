@@ -1,5 +1,5 @@
 import React from "react";
-import frameOne from "./images/1stframe.png";
+import frameOne from "./images/frameOne.png";
 
 class Section1 extends React.Component {
     render() {
