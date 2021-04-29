@@ -40,6 +40,8 @@ body {
 
   }
 
+  /* SECOND ERA - EARLY 2000s*/
+
   .frameTwo{
     position: relative;
     margin-left: auto;
@@ -53,13 +55,51 @@ body {
 
   .frameTwo .layout{
     position: absolute;
-    top: 19%;
+    top: 20%;
     right: 0.6%;
     left: 0.7%;
     height: 80%;
     overflow: scroll;
 
   }
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.eraTwoLogo {
+  width: 20%;
+  background-color: pink;
+}
+
+.eraTwoNav {
+  width: 76%;
+  background-color: purple;
+}
+
+.left {
+  width: 22%;
+  background-color: red;
+}
+
+.right {
+  width: 22%;
+  background-color: blue;
+}
+
+.middle {
+  width: 50%;
+  background-color: green;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  /* ------------------------------- */
 
   .frameThree{
     position: relative;
