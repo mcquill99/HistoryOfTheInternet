@@ -243,11 +243,14 @@ body {
     width: 15px;
     
   }
+  .frameFour ::-webkit-scrollbar-thumb {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
 
 
   /* Handle on hover */
   .frameFour ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   }
 
 
