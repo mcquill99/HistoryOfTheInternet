@@ -12,9 +12,11 @@ class Section2 extends React.Component {
         <div className="frameTwo" style={{ backgroundImage: `url(${frameTwo})` }}>
         <img id="back-btn" src={back} style={{display: 'none'}} onClick={HideSearch}/>
           <div className="layout">
+
           <div className="wrap" id="google" style={{display: 'none'}}>
-            <iframe width={'100%'} height={'95%'} src="https://oldgoogle.neocities.org/search-1998.html?q=apple&num=10"></iframe>
+            <iframe id="google-site" width={'100%'} height={'95%'} src="https://oldgoogle.neocities.org/search-1998.html?q=apple&num=10"></iframe>
             </div>
+
           {/* <object id='google' type="text/html" data="" style={{display: 'none'}} width={'100%'} height={'100%'}></object> */}
             {/* NAVBAR */}
             <div id="f2content">
@@ -206,15 +208,19 @@ class Section2 extends React.Component {
 
 function Search() {
   var q = document.getElementById('site-search').value;
-  var browser = document.getElementById('google');
-  var url = "https://oldgoogle.neocities.org/search-1998.html?q=" + q;
+  var browserDiv = document.getElementById('google');
+  var browser = document.getElementById('google-site');
+  var url = "https://oldgoogle.neocities.org/search-1998.html?q=" + q + "&num=10";
 
   document.getElementById('f2content').style.display = 'none';
   document.getElementById('back-btn').style.display = 'block';
 
-  browser.data = url;
+  browser.src = url;
+  document.getElementById('google-site').src += '';
+  console.log(document.getElementById('google-site').src)
 
-  browser.style.display = 'contents';
+  var browser = document.getElementById('google-site');
+  browserDiv.style.display = 'contents';
 }
 
 function HideSearch(){
