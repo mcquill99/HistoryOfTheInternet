@@ -9,9 +9,13 @@ class Section2 extends React.Component {
          <div className="background" style={{ backgroundImage: `url(${backgroundTwo})` }}>
         <br />
         <div className="frameTwo" style={{ backgroundImage: `url(${frameTwo})` }}>
-          <div className="layout" id="f2content">
-          <object id='google' type="text/html" data="" style={{display: 'none'}} width={'100%'} height={'100%'}></object>
+          <div className="layout">
+          <div className="wrap" id="google" style={{display: 'none'}}>
+            <iframe width={'100%'} height={'95%'} src="https://oldgoogle.neocities.org/search-1998.html?q=apple&num=10"></iframe>
+            </div>
+          {/* <object id='google' type="text/html" data="" style={{display: 'none'}} width={'100%'} height={'100%'}></object> */}
             {/* NAVBAR */}
+            <div id="f2content">
             <div class="row">
                 <div class="column eraTwoLogo">
                   <h2>Logo</h2>
@@ -183,6 +187,7 @@ class Section2 extends React.Component {
             
             </div>
             {/* -----END COLUMN ROW----- */}
+            </div>
 
           </div>
 
@@ -202,11 +207,11 @@ function Search() {
   var browser = document.getElementById('google');
   var url = "https://oldgoogle.neocities.org/search-1998.html?q=" + q;
 
-  // document.getElementById('f2content').style.display = 'none';
+  document.getElementById('f2content').style.display = 'none';
 
   browser.data = url;
 
-  browser.style.display = 'block';
+  browser.style.display = 'contents';
 }
 
 export default Section2;
