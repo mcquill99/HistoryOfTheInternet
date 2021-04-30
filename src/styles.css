@@ -383,6 +383,49 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
+  .frameFour .intro{
+    align-items: center;
+    text-align: right;
+  }
+
+  .frameFour .intro-text{
+    align-items: center;
+    text-align: right;
+    margin-right: 10% !important;
+  }
+
+  .frameFour h1 {
+      font-family: Futura,Trebuchet MS,Arial,sans-serif;  
+      font-size: 75px !important; 
+      color: #F87849;
+      text-align: right;
+  }
+
+  .frameFour h2 {
+    color: #504E40;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    font-size: 40px !important; 
+  }
+
+  .frameFour p {
+    color: black;
+    font-family: Futura, sans-serif !important; 
+    margin-bottom: 0% !important;
+    font-size: 24px !important;
+  }
+
+ #learn-more{
+   background-color: black;
+   border: none;
+ }
+
+ #learn-more p{
+  color: white;
+  font-weight: lighter;
+  font-size: 18px !important;
+}
+
+
   
   /* width */
   .frameFour ::-webkit-scrollbar {

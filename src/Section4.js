@@ -40,8 +40,13 @@ class Section4 extends React.Component {
 
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6">
-                <p>Test</p>
+              <div className="col-md-6 intro d-flex justify-content-center">
+              <div className="row intro-text">
+                <h1 className="col-md-12">Minimalism</h1>
+                <h2 className="col-md-12">So hot right now.</h2>
+                <p className="col-md-12">This is what a modern website looks like.</p>
+                <button id="learn-more" className="col-md-4 mt-4 ml-auto rounded-pill"><p className="mx-auto p-1">Learn More</p></button>
+                </div>
               </div>
               <div className="col-md-6">
                 <img className='img-fluid' src={modernGraphic} />
