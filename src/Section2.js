@@ -3,6 +3,7 @@ import frameTwo from "./images/frameTwo.png";
 import backgroundTwo from "./images/winxpproblur.png";
 import back from "./images/back.jpg";
 import pizzaHut from "./images/pizza-hut-1998.gif"
+import netflix from "./images/netflix.gif"
 
 class Section2 extends React.Component {
   render() {
@@ -63,7 +64,7 @@ class Section2 extends React.Component {
                     <tr>
                       <td className="itemList">
                         <ul>
-                          <li><a>Milestone 1</a></li>
+                          <li><a href="#">Milestone 1</a></li>
                           <li><a>Milestone 2</a></li>
                           <li><a>Milestone 3</a></li>
                           <li><a>Milestone 4</a></li>
@@ -161,7 +162,7 @@ class Section2 extends React.Component {
 
               <br />
 
-              <img onClick={Pizza} src={pizzaHut} width={'100%'}/>
+              <img onClick={Pizza} src={pizzaHut} style={{cursor: 'pointer'}} width={'100%'}/>
 
 
               {/* PEOPLE */}
@@ -183,6 +184,9 @@ class Section2 extends React.Component {
                     </tr>
                   </tbody>
                 </table>
+
+                <br />
+                <img onClick={Pizza} style={{border: 'black 1px solid'}} src={netflix} width={'100%'}/>
               </div>
               {/* -----END RIGHT COLUMN----- */}
             
