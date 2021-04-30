@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   }
@@ -366,6 +366,7 @@ body {
     background-size: 100% 100%;
     min-height: 86%;
     text-align: left;
+    font-family: 'Roboto', sans-serif;
   }
 
   .frameFour .layout{
@@ -376,6 +377,10 @@ body {
     height: 88%;
     overflow: scroll;
 
+  }
+
+  .navbar li{
+    font-family: 'Roboto', sans-serif;
   }
 
   
