@@ -14,7 +14,7 @@ class Section4 extends React.Component {
         <div className="layout">
 
           <nav class="navbar navbar-expand-sm">
-            <span class="navbar-brand mb-0 h1"><img src={internet} width={"18%"} style={{paddingRight:'10px'}}/>History of the WWW</span>
+            <span class="navbar-brand mb-0 h1"><img src={internet} width={"17%"} style={{paddingRight:'10px'}}/>History of the WWW</span>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">

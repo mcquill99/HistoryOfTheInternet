@@ -381,6 +381,7 @@ body {
 
   .navbar li{
     font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
   }
 
   .navbar .nav-item .nav-link{
