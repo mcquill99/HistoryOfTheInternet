@@ -23,8 +23,8 @@ class App extends React.Component {
                         <div>
                             <Section1 />
                             <Section2 />
-                            <Section3 content={"Page 3"} />
-                            <Section4 content={"Page 4"} />
+                            <Section3 />
+                            <Section4 />
                         </div>
                     );
                 }}
