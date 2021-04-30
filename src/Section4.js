@@ -2,6 +2,7 @@ import React from "react";
 import frameFour from "./images/frameFour.png";
 import backgroundFour from "./images/bigsurblur.png";
 import modernGraphic from "./images/modern-graphic.png";
+import internet from "./images/internet-sm.png";
 
 class Section4 extends React.Component {
   render() {
@@ -12,8 +13,8 @@ class Section4 extends React.Component {
       <div className=" has_bootstrap frameFour" style={{ backgroundImage: `url(${frameFour})` }}>
         <div className="layout">
 
-          <nav class="navbar navbar-expand-sm bg-light">
-            <span class="navbar-brand mb-0 h1">History of the WWW</span>
+          <nav class="navbar navbar-expand-sm">
+            <span class="navbar-brand mb-0 h1"><img src={internet} width={"18%"} style={{paddingRight:'10px'}}/>History of the WWW</span>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">

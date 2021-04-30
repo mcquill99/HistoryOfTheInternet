@@ -383,6 +383,10 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
+  .navbar .nav-item .nav-link{
+    color: black;
+  }
+
   .frameFour .intro{
     align-items: center;
     text-align: right;
