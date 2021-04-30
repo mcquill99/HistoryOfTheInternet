@@ -50,28 +50,28 @@ body {
   }
 
     /* width */
-  .wrap ::-webkit-scrollbar, .frameOne ::-webkit-scrollbar {
+    .frameOne ::-webkit-scrollbar {
     width: 23px;
     
   }
 
   /* Track */
-  .wrap ::-webkit-scrollbar-track , .frameOne ::-webkit-scrollbar-track {
+  .frameOne ::-webkit-scrollbar-track {
     background: #aaaaaa;
   }
 
-  .wrap ::-webkit-scrollbar-corner, .frameOne ::-webkit-scrollbar-corner{
+  .frameOne ::-webkit-scrollbar-corner{
     background: #808080;
   }
 
   /* Handle */
-  .wrap ::-webkit-scrollbar-thumb, .frameOne ::-webkit-scrollbar-thumb {
+  .frameOne ::-webkit-scrollbar-thumb {
     background: url('./images/1996scrollBar.png');
     background-size: cover;
   }
 
   /* Handle on hover */
-  .wrap ::-webkit-scrollbar-thumb:hover, .frameOne ::-webkit-scrollbar-thumb:hover {
+  .frameOne ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/1996scrollBar.png');
     background-size: cover;
   }
@@ -269,6 +269,8 @@ body {
   position: absolute;
   top: 8%;
   left: 1%;
+  width: 8%;
+  height: auto;
 }
 
 .row:after {
@@ -279,28 +281,28 @@ body {
 
   /* ------------------------------- */
     /* width */
-    .frameTwo ::-webkit-scrollbar {
+    iframe#pizza-site::-webkit-scrollbar, .frameTwo ::-webkit-scrollbar {
       width: 20px;
       
     }
   
     /* Track */
-     .frameTwo ::-webkit-scrollbar-track {
+    iframe#pizza-site::-webkit-scrollbar-track , .frameTwo ::-webkit-scrollbar-track {
       background: #fffbff
     }
   
-    .frameTwo ::-webkit-scrollbar-corner{
+    iframe#pizza-site::-webkit-scrollbar-corner, .frameTwo ::-webkit-scrollbar-corner{
       background: rgb(230, 228, 230)
     }
   
     /* Handle */
-    .frameTwo ::-webkit-scrollbar-thumb {
+    iframe#pizza-site::-webkit-scrollbar-thumb, .frameTwo ::-webkit-scrollbar-thumb {
       background: url('./images/early2000sScroll.png');
       background-size: 100% 100%;
     }
   
     /* Handle on hover */
-    .frameTwo ::-webkit-scrollbar-thumb:hover {
+    iframe#pizza-site::-webkit-scrollbar-thumb:hover, .frameTwo ::-webkit-scrollbar-thumb:hover {
       background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/early2000sScroll.png');
       background-size: 100% 100%;
     }
