@@ -8,7 +8,7 @@ class Section4 extends React.Component {
       <div className="section">
         <div className="background" style={{ backgroundImage: `url(${backgroundFour})` }}>
       <br />
-      <div className="frameFour" style={{ backgroundImage: `url(${frameFour})` }}>
+      <div className=" has_bootstrap frameFour" style={{ backgroundImage: `url(${frameFour})` }}>
         <div className="layout">
           <h1>History of the World Wide Web</h1>
           <p>Here is some information about the beginning of the World Wide Web</p>

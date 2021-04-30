@@ -104,8 +104,8 @@ body {
   .frameTwo .layout{
     position: absolute;
     top: 19.7%;
-    right: 1.7%;
-    left: 1.7%;
+    right: 0.5%;
+    left: 0%;
     height: 80%;
     overflow: scroll;
     padding: 0 10px;
@@ -282,7 +282,7 @@ body {
   /* ------------------------------- */
     /* width */
     iframe#pizza-site::-webkit-scrollbar, .frameTwo ::-webkit-scrollbar {
-      width: 20px;
+      width: 22px;
       
     }
   
