@@ -23,6 +23,10 @@ class Section2 extends React.Component {
             <iframe id="pizza-site" width={'100%'} height={'95%'} src="https://www.pizzahut.com/assets/pizzanet/home.html"></iframe>
             </div>
 
+            <div className="wrap" id="netflix" style={{display: 'none'}}>
+            <iframe id="netflix-site" width={'100%'} height={'95%'} src="netflix.html"></iframe>
+            </div>
+
           {/* <object id='google' type="text/html" data="" style={{display: 'none'}} width={'100%'} height={'100%'}></object> */}
             {/* NAVBAR */}
             <div id="f2content">
@@ -186,7 +190,7 @@ class Section2 extends React.Component {
                 </table>
 
                 <br />
-                <img onClick={Pizza} style={{border: 'black 1px solid'}} src={netflix} width={'100%'}/>
+                <img onClick={Netflix} style={{border: 'black 1px solid'}} src={netflix} width={'100%'}/>
               </div>
               {/* -----END RIGHT COLUMN----- */}
             
@@ -218,7 +222,6 @@ function Search() {
 
   browser.src = url;
   document.getElementById('google-site').src += '';
-  console.log(document.getElementById('google-site').src)
 
   browserDiv.style.display = 'contents';
 }
@@ -227,12 +230,25 @@ function HideSearch(){
   document.getElementById('f2content').style.display = 'block';
   document.getElementById('google').style.display = 'none';
   document.getElementById('pizza').style.display = 'none';
+  document.getElementById('netflix').style.display = 'none';
   document.getElementById('back-btn').style.display = 'none';
 }
 
 function Pizza() {
   var browserDiv = document.getElementById('pizza');
   var browser = document.getElementById('pizza-site');
+
+  document.getElementById('pizza-site').src += '';
+
+  document.getElementById('f2content').style.display = 'none';
+  document.getElementById('back-btn').style.display = 'block';
+
+  browserDiv.style.display = 'contents';
+}
+
+function Netflix() {
+  var browserDiv = document.getElementById('netflix');
+  var browser = document.getElementById('netflix-site');
 
   document.getElementById('f2content').style.display = 'none';
   document.getElementById('back-btn').style.display = 'block';
