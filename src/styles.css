@@ -432,31 +432,46 @@ body {
 
 
   
-  /* width */
-  .frameFour ::-webkit-scrollbar {
-    width: 15px;
-    
-  }
-  .frameFour ::-webkit-scrollbar-thumb {
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  }
-
-
-  /* Handle on hover */
-  .frameFour ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-  }
-
-
- .section p {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-  }
+/* width */
+.frameFour ::-webkit-scrollbar {
+  width: 15px;
   
-  h3 {
-    font-size: 5em;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: black;
-    font-weight: 700;
-  }
+}
+.frameFour ::-webkit-scrollbar-thumb {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+
+/* Handle on hover */
+.frameFour ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+
+.section p {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 5em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+.carousel {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10% !important;
+  padding-top: 20px;
+}
+
+.has_bootstrap .carousel-control-next {
+  right: 10% !important;
+}
+
+.has_bootstrap .carousel-control-prev {
+  left: 10% !important;
+}
