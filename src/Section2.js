@@ -4,6 +4,7 @@ import backgroundTwo from "./images/winxpproblur.png";
 import back from "./images/back.jpg";
 import pizzaHut from "./images/pizza-hut-1998.gif"
 import netflix from "./images/netflix.gif"
+import placeholder from "./images/placeholder.png"
 
 class Section2 extends React.Component {
   render() {
@@ -129,12 +130,25 @@ class Section2 extends React.Component {
               <div class="column middle">
               <table>
                 <tbody>
+
                   <tr>
-                    <td>Section 1</td>
+                    <td>
+                      <img src={placeholder} style={{width:'50%'}}/>
+                    </td>
+                    <td>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar volutpat est ut congue. Nullam id velit risus.
+                      </p>
+                    </td>
                     </tr>
+
+                    <br/>
+
                     <tr>
                       <td>Section 2</td>
                       </tr>
+                      
+                      <br/>
+
                       <tr>
                         <td>Section 3</td>
                         </tr>
