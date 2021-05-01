@@ -5,7 +5,7 @@ import backgroundOne from "./images/win31blur.png";
 class Section1 extends React.Component {
     render() {
       return (
-        <div className="section">
+        <div className="section one">
           <div className="background" style={{ backgroundImage: `url(${backgroundOne})` }}>
           <br />
           <div className="frameOne" style={{ backgroundImage: `url(${frameOne})` }}>
