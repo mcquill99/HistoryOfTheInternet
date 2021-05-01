@@ -128,32 +128,75 @@ class Section2 extends React.Component {
               
               {/* MIDDLE COLUMN */}
               <div class="column middle">
+              
+              {/* Top box */}
               <table>
                 <tbody>
-
                   <tr>
                     <td>
-                      <img src={placeholder} style={{width:'50%'}}/>
+                      <img src={placeholder} style={{width:'100%'}}/>
                     </td>
                     <td>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar volutpat est ut congue. Nullam id velit risus.
                       </p>
                     </td>
                     </tr>
+                  </tbody>
+                </table>
 
                     <br/>
 
-                    <tr>
-                      <td>Section 2</td>
+                {/* Middle box */}
+                <table>
+                  <tbody>
+                      <tr>
+                        <td>
+                          <div className="row">
+
+                            <div className="column entry">
+                              <img src={placeholder} style={{width:'50%'}}/>
+                              <p style={{float: 'right'}}>About image 1</p>
+                            </div>
+
+                            <div className='column' style={{width:'10%'}}></div>
+                            
+                            <div className="column entry">
+                              <img src={placeholder} style={{width:'50%'}}/>
+                              <p style={{float: 'right'}}>About image 2</p>    
+                            </div>
+                          </div>
+                        </td>
                       </tr>
+                    </tbody>
+                  </table>
                       
                       <br/>
 
+                {/* Bottom box */}
+                <table>
+                  <tbody>
                       <tr>
-                        <td>Section 3</td>
-                        </tr>
-                  </tbody>
-                </table>
+                        <td>
+                          <div className="row">
+
+                            <div className="column entry">
+                              <img src={placeholder} style={{width:'50%'}}/>
+                              <p style={{float: 'right'}}>About image 1</p>
+                            </div>
+
+                            <div className='column' style={{width:'10%'}}></div>
+                            
+                            <div className="column entry">
+                              <img src={placeholder} style={{width:'50%'}}/>
+                              <p style={{float: 'right'}}>About image 2</p>    
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                      
               </div>
               {/* -----END MIDDLE COLUMN----- */}
 
