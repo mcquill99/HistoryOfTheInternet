@@ -18,6 +18,7 @@ class App extends React.Component {
             <ReactFullpage
                 navigation
                 sectionsColor={["#ffffff", "#ff5f45", "#0798ec", "#f8d568"]}
+                normalScrollElements={`.layout`}
                 render = {({ state, fullpageApi}) => {
                     return(
                         <div>
