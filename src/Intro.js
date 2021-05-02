@@ -8,7 +8,7 @@ class Intro extends React.Component {
         <div className="section intro">
             <div className="background introBackground">
             <p className="anim-typewriter type">
-                Welcome, to the History of the World Wide Web.
+                Welcome to the History of the World Wide Web.
             </p>
 
             </div>

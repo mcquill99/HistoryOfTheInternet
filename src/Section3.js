@@ -1,6 +1,7 @@
 import React from "react";
 import frameThree from "./images/frameThree.png";
 import backgroundThree from "./images/mac-leopard-blur.png";
+import logoEraThree from "./images/logoEraThree.png";
 
 class Section3 extends React.Component {
   render() {
@@ -10,17 +11,21 @@ class Section3 extends React.Component {
       <br />
       <div className="frameThree" style={{ backgroundImage: `url(${frameThree})` }}>
         <div className="layout">
-          <h1>History of the World Wide Web</h1>
-          <p>Here is some information about the beginning of the World Wide Web</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis condimentum erat. Fusce varius convallis lorem ac tristique. Vestibulum a velit semper, ultrices nulla vitae, vestibulum dolor. Aenean porta semper velit. Praesent congue quam eu neque fringilla volutpat. Nulla at risus ut urna tempor egestas non ut dui. Morbi porta odio sodales magna scelerisque, et ornare arcu porttitor.</p>
-          <p>Ut faucibus quis dolor ac placerat. Ut ex dolor, placerat at sem nec, sagittis hendrerit lorem. Pellentesque sit amet dui porta est sollicitudin ultricies sit amet feugiat orci. Pellentesque justo erat, suscipit a mi at, porta varius quam. Donec varius nisl at lectus dignissim, id sollicitudin risus viverra. Sed convallis elementum augue et ornare. Nunc gravida metus id elementum facilisis. Suspendisse euismod, felis sit amet feugiat semper, eros orci aliquam dolor, eget ornare elit augue eu ex. Curabitur id est at est vestibulum cursus. Donec id ultricies felis, et sollicitudin justo. Nulla ultricies dolor enim, eget lacinia turpis porttitor ut. In egestas risus lacus, non viverra sem malesuada eget. Praesent eleifend sapien posuere ligula tempus, vitae sollicitudin elit posuere. Vestibulum a turpis pretium, sagittis mauris sit amet, pulvinar augue. Aenean tincidunt mauris a ligula eleifend pulvinar.</p>
-          <p>Ut faucibus quis dolor ac placerat. Ut ex dolor, placerat at sem nec, sagittis hendrerit lorem. Pellentesque sit amet dui porta est sollicitudin ultricies sit amet feugiat orci. Pellentesque justo erat, suscipit a mi at, porta varius quam. Donec varius nisl at lectus dignissim, id sollicitudin risus viverra. Sed convallis elementum augue et ornare. Nunc gravida metus id elementum facilisis. Suspendisse euismod, felis sit amet feugiat semper, eros orci aliquam dolor, eget ornare elit augue eu ex. Curabitur id est at est vestibulum cursus. Donec id ultricies felis, et sollicitudin justo. Nulla ultricies dolor enim, eget lacinia turpis porttitor ut. In egestas risus lacus, non viverra sem malesuada eget. Praesent eleifend sapien posuere ligula tempus, vitae sollicitudin elit posuere. Vestibulum a turpis pretium, sagittis mauris sit amet, pulvinar augue. Aenean tincidunt mauris a ligula eleifend pulvinar.</p>
-          <p>Ut faucibus quis dolor ac placerat. Ut ex dolor, placerat at sem nec, sagittis hendrerit lorem. Pellentesque sit amet dui porta est sollicitudin ultricies sit amet feugiat orci. Pellentesque justo erat, suscipit a mi at, porta varius quam. Donec varius nisl at lectus dignissim, id sollicitudin risus viverra. Sed convallis elementum augue et ornare. Nunc gravida metus id elementum facilisis. Suspendisse euismod, felis sit amet feugiat semper, eros orci aliquam dolor, eget ornare elit augue eu ex. Curabitur id est at est vestibulum cursus. Donec id ultricies felis, et sollicitudin justo. Nulla ultricies dolor enim, eget lacinia turpis porttitor ut. In egestas risus lacus, non viverra sem malesuada eget. Praesent eleifend sapien posuere ligula tempus, vitae sollicitudin elit posuere. Vestibulum a turpis pretium, sagittis mauris sit amet, pulvinar augue. Aenean tincidunt mauris a ligula eleifend pulvinar.</p>
+          <div className="ThirdLogo">
+            <br></br>
+            <center>
+            <img src={logoEraThree} width={360}/>
+            </center>
+          </div>
+            <div className="leftColumn">
+              <p>this is the left column and this is text to test the left column. disregard this text as it is a test. lets see if we can code this left column to emuluate a late 2000s website. going to attempt that using the CSS yahoooo</p>
+            </div>
+          </div>
           </div>
       </div>
       {/* <img src={frameOne} /> */}
     </div>
-    </div>
+
     );
   }
 }
