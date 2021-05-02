@@ -531,9 +531,8 @@ h3 {
   white-space: nowrap;
   overflow: hidden;
   color: #00ff00;
-  font-family: 'Glass';
+  font-family: 'Courier New','Courier','Lucida Sans Typewriter','Lucida Typewriter',monospace; 
 }
-
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
