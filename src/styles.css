@@ -508,6 +508,10 @@ h3 {
   width: 90%;
 }
 
+.has_bootstrap .card-text:last-child {
+  font-size: 18px !important;
+}
+
 .intro{
 
 }

@@ -66,7 +66,7 @@ class Section4 extends React.Component {
                 <img className="card-img-top" src={bootstrapPic} alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title">Bootstrap</h5>
-                  <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">Bootstrap, an open-sourced CSS framework, was created in 2011 by Twitter developers Mark Otto and Jacob Thorton.</p>
                 </div>
               </div>
               <div className="card">
