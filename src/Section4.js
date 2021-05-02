@@ -22,17 +22,17 @@ class Section4 extends React.Component {
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                     <a className="nav-link" href="#">
-                      Early 90s
+                      Early 1990s
                     </a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">
-                      Late 90s
+                      Early 2000s
                     </a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">
-                      2000s
+                      Late 2000s
                     </a>
                 </li>
                 <li className="nav-item">

@@ -390,11 +390,24 @@ body {
     padding-top: 50px;
   }
 
-  /* left column frame three */
-  .leftColumn {
-    width: 20%;
-    padding-left: 50px;
-    padding-top: 20px;
+  .logoHolder {
+    width: 650px;
+    align-content: left;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  .whiteHolder {
+    background-color: white;
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    -webkit-box-shadow:0 0 20px #cdcfbf; 
+    -moz-box-shadow: 0 0 20px #cdcfbf; 
+    box-shadow:0 0 20px #cdcfbf;
+    border-radius: 8px;
+
   }
 
 
