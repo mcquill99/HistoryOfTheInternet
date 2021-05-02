@@ -36,16 +36,16 @@ class Section2 extends React.Component {
                   <h2>Logo</h2>
                 </div>
                 <div class="column eraTwoWelcome">
-                    <h5>Welcome to the Late 1990s</h5>
+                    <h5>Welcome to the early 2000s</h5>
                       <div class="row">
                         <div class="column eraTwoNav">
                         <table class="tg">
                           <thead>
                             <tr>
-                              <th>EARLY 90s</th>
-                              <th style={{backgroundColor: '#FFFFBA'}}>LATE 90s</th>
-                              <th>2000s</th>
-                              <th>PRESENT</th>
+                              <th>TAB 1</th>
+                              <th style={{backgroundColor: '#FFFFBA'}}>TAB 2</th>
+                              <th>TAB 3</th>
+                              <th>TAB 4</th>
                               <th style={{width: '50%'}}></th>
                             </tr>
                           </thead>
