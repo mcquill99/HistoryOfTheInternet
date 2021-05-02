@@ -2,6 +2,8 @@ import React from "react";
 import ReactFullpage from '@fullpage/react-fullpage';
 import "fullpage.js/vendors/scrolloverflow";
 
+
+import Intro from "./Intro";
 import Section1 from "./Section1"
 import Section2 from "./Section2"
 import Section3 from "./Section3"
@@ -17,11 +19,13 @@ class App extends React.Component {
         return(
             <ReactFullpage
                 navigation
-                sectionsColor={["#ffffff", "#ff5f45", "#0798ec", "#f8d568"]}
+                sectionsColor={["#000000, #ffffff", "#ff5f45", "#0798ec", "#f8d568"]}
                 normalScrollElements={`.layout`}
+                scrollOverflow={true}
                 render = {({ state, fullpageApi}) => {
                     return(
                         <div>
+                            <Intro />
                             <Section1 />
                             <Section2 />
                             <Section3 />
