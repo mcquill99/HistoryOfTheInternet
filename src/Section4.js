@@ -33,11 +33,11 @@ class Section4 extends React.Component {
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">
-                      Late 2000s
+                      2010
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#" style={{fontWeight:'bold'}}>
                       Present
                     </a>
                 </li>
