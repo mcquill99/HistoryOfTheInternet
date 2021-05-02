@@ -464,6 +464,11 @@ body {
     color: black;
   }
 
+  .navbar .nav-item .nav-link:hover{
+    font-weight: bold;
+    transition: 0.2s;
+  }
+
   .frameFour .intro{
     align-items: center;
     text-align: right;
