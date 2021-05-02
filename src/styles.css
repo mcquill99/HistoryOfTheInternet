@@ -321,7 +321,7 @@ body {
   
     /* Handle on hover */
     iframe#pizza-site::-webkit-scrollbar-thumb:hover, .frameTwo ::-webkit-scrollbar-thumb:hover {
-      background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('./images/early2000sScroll.png');
+      background: linear-gradient( rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.00)), url('./images/early2000sScroll.png');
       background-size: 100% 100%;
     }
   
@@ -342,8 +342,9 @@ body {
     top: 17.9%;
     right: 0.05%;
     left: 0.35%;
-    height: 82%;
-    overflow: scroll;
+    height: 79.24%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
   }
 
