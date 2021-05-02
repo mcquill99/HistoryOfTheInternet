@@ -2,9 +2,10 @@ import React from "react";
 import frameTwo from "./images/frameTwo.png";
 import backgroundTwo from "./images/winxpproblur.png";
 import back from "./images/back.jpg";
-import pizzaHut from "./images/pizza-hut-1998.gif"
-import netflix from "./images/netflix.gif"
-import placeholder from "./images/placeholder.png"
+import pizzaHut from "./images/pizza-hut-1998.gif";
+import netflix from "./images/netflix.gif";
+import placeholder from "./images/placeholder.png";
+import logoTwo from ".images/secondFrameLogo.png"
 
 class Section2 extends React.Component {
   render() {
@@ -33,7 +34,7 @@ class Section2 extends React.Component {
             <div id="f2content">
             <div class="row">
                 <div class="column eraTwoLogo">
-                  <h2>Logo</h2>
+                <img src={logoTwo}></img>
                 </div>
                 <div class="column eraTwoWelcome">
                     <h5>Welcome to the early 2000s</h5>
