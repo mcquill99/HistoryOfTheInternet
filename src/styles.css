@@ -452,7 +452,13 @@ body {
   .frameFour .intro-text h2 {
     color: #504E40;
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-    font-size: 40px !important; 
+    font-size: 32px !important; 
+  }
+
+  .frameFour .intro-text p {
+    color: black;
+    font-family: Futura, sans-serif !important; 
+    font-size: 22px !important;
   }
 
   .frameFour h1 {
@@ -475,6 +481,20 @@ body {
  }
 
  #learn-more p{
+  color: white;
+  font-weight: lighter;
+  font-size: 18px !important;
+}
+
+button.next-btn{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: auto;
+  background-color: black;
+  border: none;
+}
+
+button.next-btn p{
   color: white;
   font-weight: lighter;
   font-size: 18px !important;
