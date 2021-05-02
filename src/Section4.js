@@ -96,21 +96,21 @@ class Section4 extends React.Component {
                 <img className="card-img-top" src={chrome} alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title">Google Chrome</h5>
-                  <p className="card-text">Bootstrap, an open-sourced CSS framework, was created in 2011 by Twitter developers Mark Otto and Jacob Thorton.</p>
+                  <p className="card-text">Google Chrome is by far the most popular web browser, with a 66% worldwide browser market share. Chrome is well-recieved for its cross-compatibility, browsing tools, and speed. </p>
                 </div>
               </div>
               <div className="card">
                 <img className="card-img-top" src={safari} alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title">Safari</h5>
-                  <p className="card-text">Bootstrap's library of pre-made layout components simplifies the development of informative web pages.</p>
+                  <p className="card-text">Safari is the default Mac and iOS browser. It's known for its superb integration with the Apple ecosystem. It's also extremely fast and customizable.</p>
                 </div>
               </div>
               <div className="card">
                 <img className="card-img-top" src={firefox} alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title">Firefox</h5>
-                  <p className="card-text">As of 2019, 19.6% of live websites use Bootstrap. That amounts to 1,518,207,412 websites!</p>
+                  <p className="card-text">Firefox is an open source web broswer and a pioneer of many web capabilities. The developers are a strong advocate for online privacy. </p>
 
                 </div>
               </div>
