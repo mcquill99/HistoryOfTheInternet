@@ -5,7 +5,7 @@ import back from "./images/back.jpg";
 import pizzaHut from "./images/pizza-hut-1998.gif";
 import netflix from "./images/netflix.gif";
 import placeholder from "./images/placeholder.png";
-import logoTwo from ".images/secondFrameLogo.png"
+import logoTwo from ".images/secondframeLogo.png"
 
 class Section2 extends React.Component {
   render() {
