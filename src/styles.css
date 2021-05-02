@@ -46,6 +46,8 @@ body {
     left: 1%;
     height: 74%;
     overflow: scroll;
+    word-wrap:normal;
+    
 
 
   }
@@ -81,10 +83,10 @@ body {
   .layout p{
     /* margin-right: 180px; */
     /* padding-right: 180px; */
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-all;
-    hyphens: auto;
+    overflow-wrap: normal;
+    word-wrap: normal;
+    word-break: normal;
+    hyphens: none;
 
 
   }
