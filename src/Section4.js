@@ -5,8 +5,9 @@ import modernGraphic from "./images/modern-graphic.png";
 import internet from "./images/internet-sm.png";
 import placeholder from "./images/placeholder.png";
 import bootstrapPic from "./images/bootstrap.png";
-import bsExample from "./images/bs-example.png";
-import bsUse from "./images/bs-use.jpeg";
+import chrome from "./images/chrome.png";
+import safari from "./images/safari.png";
+import firefox from "./images/firefox.png";
 
 class Section4 extends React.Component {
   render() {
@@ -46,44 +47,70 @@ class Section4 extends React.Component {
           <div className="container-fluid">
             <div className="row pb-5">
               
+              {/* FRONT */}
               <div className="col-md-6 intro d-flex justify-content-center">
                 <div className="row intro-text">
-                  <h1 className="col-md-12">Minimalism</h1>
-                  <h2 className="col-md-12">So hot right now.</h2>
-                  <p className="col-md-12">This is what a modern website looks like.</p>
-                  <button onClick={GoToCards} id="learn-more" className="col-md-4 mt-4 ml-auto rounded-pill"><p className="mx-auto p-1">Learn More</p></button>
+                  <h1 className="col-md-12">The Present</h1>
+                  <h2 className="col-md-12">We've finally made it.</h2>
+                  <p className="col-md-12">A variety of tools help create modern-day websites.</p>
+                  <button onClick={GoToBootstrap} id="learn-more" className="col-md-4 mt-4 ml-auto rounded-pill"><p className="mx-auto p-1">Learn More</p></button>
                   </div>
               </div>
               <div className="col-md-6">
                 <img className='img-fluid' src={modernGraphic} />
               </div>
             </div>
+          </div>
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+          <div className="container">
+
+            {/* BOOTSTRAP */}
+            <div className="row pb-5" id="bs-section">
+              
+              <div className="col-md-6 intro d-flex justify-content-center">
+                  <img className='img-fluid' src={bootstrapPic} />
+                  </div>
+              <div className="col-md-6 my-auto">
+                <div className="row text-left">
+                  <p>Bootstrap, an open-sourced CSS framework, was created in 2011 by Twitter developers Mark Otto and Jacob Thorton.</p>
+                  <br/><br/>
+                  <p>Bootstrap's library of pre-made layout components simplifies the development of informative web pages.</p>
+                  <br/><br/>
+                  <p>As of 2019, 19.6% of live websites use Bootstrap. That amounts to 1,518,207,412 websites!</p>
+                </div>
+              </div>
+              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
+                <p className="mx-auto p-1">Next</p>
+                </button>
+            </div>      
 
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
             {/* CARDS */}
-            <h1>Bootstrap</h1>
-            <div className="card-deck pb-5 mx-auto" width={'90%'} id="card-section">
+            <h1>Popular Web Browsers</h1>
+            <div className="card-deck pb-5 mb-5 mx-auto" id="card-section" width={'90%'}>
               <div className="card">
-                <img className="card-img-top" src={bootstrapPic} alt="Card image cap"/>
+                <img className="card-img-top" src={chrome} alt="Card image cap"/>
                 <div className="card-body">
-                  <h5 className="card-title">Bootstrap</h5>
-                  <p className="card-text">Bootstrap, an open-sourced CSS framework, was created in 2011 by Twitter developers Mark Otto and Jacob Thorton.</p>
+                  <h5 className="card-title">Google Chrome</h5>
+                  <p className="card-text">Google Chrome is by far the most popular web browser, with a 66% worldwide browser market share. Chrome is well-recieved for its cross-compatibility, browsing tools, and speed. </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={bsExample} alt="Card image cap"/>
+                <img className="card-img-top" src={safari} alt="Card image cap"/>
                 <div className="card-body">
-                  <h5 className="card-title">Simplifying Web Design</h5>
-                  <p className="card-text">Bootstrap's library of pre-made layout components simplifies the development of informative web pages.</p>
+                  <h5 className="card-title">Safari</h5>
+                  <p className="card-text">Safari is the default Mac and iOS browser. It's known for its superb integration with the Apple ecosystem. It's also extremely fast and customizable.</p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={bsUse} alt="Card image cap"/>
+                <img className="card-img-top" src={firefox} alt="Card image cap"/>
                 <div className="card-body">
-                  <h5 className="card-title">Widely Accepted</h5>
-                  <p className="card-text">As of 2019, 19.6% of live websites use Bootstrap. This amounts to 1,518,207,412 websites!</p>
+                  <h5 className="card-title">Firefox</h5>
+                  <p className="card-text">Firefox is an open source web broswer and a pioneer of many web capabilities. The developers are a strong advocate for online privacy. </p>
 
                 </div>
               </div>
@@ -188,7 +215,13 @@ class Section4 extends React.Component {
   }
 }
 
-function GoToCards() {
+function GoToBootstrap() {
+  const element = document.getElementById("bs-section");
+  element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  
+}
+
+function GoToCard() {
   const element = document.getElementById("card-section");
   element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   
