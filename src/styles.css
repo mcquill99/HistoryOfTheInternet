@@ -527,7 +527,7 @@ h3 {
   white-space: nowrap;
   overflow: hidden;
   color: #00ff00;
-  font-family: 'Clacon';
+  font-family: 'Courier New','Courier','Lucida Sans Typewriter','Lucida Typewriter',monospace; 
 }
 
 .anim-typewriter{
