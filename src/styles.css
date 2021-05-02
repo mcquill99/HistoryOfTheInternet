@@ -48,7 +48,7 @@ body {
     top: 21.9%;
     right: 0.8%;
     left: 1%;
-    height: 74%;
+    height: 73.5%;
     overflow-y: scroll;
     overflow-x: hidden;
     word-wrap: normal;
@@ -61,13 +61,14 @@ body {
 
     /* width */
     .frameOne ::-webkit-scrollbar {
-    width: 23px;
+    width: 27px;
     
   }
 
   /* Track */
   .frameOne ::-webkit-scrollbar-track {
-    background: #aaaaaa;
+    background: #dbdbdb;
+    margin-top: .48px;
   }
 
   .frameOne ::-webkit-scrollbar-corner{
@@ -78,6 +79,7 @@ body {
   .frameOne ::-webkit-scrollbar-thumb {
     background: url('./images/1996scrollBar.png');
     background-size: cover;
+    background-position: left;
   }
 
   /* Handle on hover */
@@ -116,7 +118,7 @@ body {
 
   .frameTwo .layout{
     position: absolute;
-    top: 20.045%;
+    top: 20.055%;
     right: 0.5%;
     left: 0%;
     height: 75.5%;
@@ -335,6 +337,8 @@ body {
     background-size: 100% 100%;
     min-height: 86%;
     text-align: left;
+    border-radius: 10px;
+    border-bottom-left-radius: 16px;
   }
 
   .frameThree .layout{
@@ -357,6 +361,8 @@ body {
   /* Track */
    .frameThree ::-webkit-scrollbar-track {
     background: #fafafa;
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
 
   .frameThree ::-webkit-scrollbar-corner{
