@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
+  
   }
 
   .section.one h1 {
@@ -38,6 +39,8 @@ body {
     min-height: 95%;
     text-align: left;
     
+
+    
   }
 
   .frameOne .layout{
@@ -51,7 +54,6 @@ body {
     word-wrap: normal;
     padding-left: 10px;
     padding-right: 10px;
-    
     
 
 
@@ -109,15 +111,17 @@ body {
     background-size: 100% 100%;
     min-height: 90%;
     text-align: left;
+    border-radius: 5px;
   }
 
   .frameTwo .layout{
     position: absolute;
-    top: 19.7%;
+    top: 20.045%;
     right: 0.5%;
     left: 0%;
-    height: 80%;
-    overflow: scroll;
+    height: 75.5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
     padding: 0 10px;
 
   }
@@ -351,11 +355,11 @@ body {
 
   /* Track */
    .frameThree ::-webkit-scrollbar-track {
-    background: #fafafa
+    background: #fafafa;
   }
 
   .frameThree ::-webkit-scrollbar-corner{
-    background: #dadada
+    background: #dadada;
   }
 
   /* Handle */
