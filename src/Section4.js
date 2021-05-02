@@ -5,6 +5,8 @@ import modernGraphic from "./images/modern-graphic.png";
 import internet from "./images/internet-sm.png";
 import placeholder from "./images/placeholder.png";
 import bootstrapPic from "./images/bootstrap.png";
+import bsExample from "./images/bs-example.png";
+import bsUse from "./images/bs-use.jpeg";
 
 class Section4 extends React.Component {
   render() {
@@ -70,17 +72,18 @@ class Section4 extends React.Component {
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={placeholder} alt="Card image cap"/>
+                <img className="card-img-top" src={bsExample} alt="Card image cap"/>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <h5 className="card-title">Simplifying Web Design</h5>
+                  <p className="card-text">Bootstrap's library of pre-made layout components simplifies the development of informative web pages.</p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={placeholder} alt="Card image cap"/>
+                <img className="card-img-top" src={bsUse} alt="Card image cap"/>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <h5 className="card-title">Widely Accepted</h5>
+                  <p className="card-text">As of 2019, 19.6% of live websites use Bootstrap. This amounts to 1,518,207,412 websites!</p>
+
                 </div>
               </div>
             </div>

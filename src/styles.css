@@ -512,6 +512,14 @@ h3 {
   font-size: 18px !important;
 }
 
+.has_bootstrap .card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+
+/* WELCOME PAGE */
 .intro{
 
 }
