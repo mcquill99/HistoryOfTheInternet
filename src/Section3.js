@@ -11,15 +11,16 @@ class Section3 extends React.Component {
       <br />
       <div className="frameThree" style={{ backgroundImage: `url(${frameThree})` }}>
         <div className="layout">
+        <div className="logoHolder">
           <div className="ThirdLogo">
             <br></br>
-            <center>
             <img src={logoEraThree} width={360}/>
-            </center>
           </div>
-            <div className="leftColumn">
-              <p>this is the left column and this is text to test the left column. disregard this text as it is a test. lets see if we can code this left column to emuluate a late 2000s website. going to attempt that using the CSS yahoooo</p>
-            </div>
+          </div>
+          <div className="whiteHolder">
+            
+            <p>this is a holder for content</p>
+          </div>
           </div>
           </div>
       </div>
