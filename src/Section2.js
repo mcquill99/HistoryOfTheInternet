@@ -34,7 +34,7 @@ class Section2 extends React.Component {
             <div id="f2content">
             <div class="row">
                 <div class="column eraTwoLogo">
-                  <img src={y2kLogo} width={173}/>
+                  <img src={y2kLogo} width={'95%'}/>
                 </div>
                 <div class="column eraTwoWelcome">
                     <h5>Welcome to the early 2000s</h5>
@@ -135,10 +135,11 @@ class Section2 extends React.Component {
                 <tbody>
                   <tr>
                     <td>
-                      <img src={placeholder} style={{width:'100%'}}/>
+                      <img src='https://qph.fs.quoracdn.net/main-qimg-9416d9d1043fa198d5841dff9fb0e8f1'style={{width:'100%'}}/>
                     </td>
                     <td>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar volutpat est ut congue. Nullam id velit risus.
+                      <p>With the Introduction of HTML 3.2 on January 14th, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along side the release of CSS the month prior, created the first easy to use way of styling individual sections of a web page. 
+                        <br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselbes
                       </p>
                     </td>
                     </tr>
@@ -156,7 +157,7 @@ class Section2 extends React.Component {
 
                             <div className="column entry">
                               <img src={placeholder} style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>About image 1</p>
+                              <p style={{float: 'right'}}>HTML 3.2 also </p>
                             </div>
 
                             <div className='column' style={{width:'10%'}}></div>

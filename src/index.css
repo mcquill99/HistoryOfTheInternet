@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Clacon';
+  src: local('Clacon'), url(./fonts/clacon.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Glass';
+  src: local('Glass'), url(./fonts/Glass_TTY_VT220.ttf) format('truetype');
+}
+
 body {
   background-color: #62abff;
   padding: 20px;
