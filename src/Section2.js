@@ -34,7 +34,7 @@ class Section2 extends React.Component {
             <div id="f2content">
             <div class="row">
                 <div class="column eraTwoLogo">
-                  <img src={y2kLogo} width={173}/>
+                  <img src={y2kLogo} width={'95%'}/>
                 </div>
                 <div class="column eraTwoWelcome">
                     <h5>Welcome to the early 2000s</h5>

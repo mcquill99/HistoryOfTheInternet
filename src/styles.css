@@ -502,3 +502,7 @@ h3 {
 .has_bootstrap .carousel-control-prev {
   left: 10% !important;
 }
+
+.has_bootstrap .card-deck {
+  width: 90%;
+}
