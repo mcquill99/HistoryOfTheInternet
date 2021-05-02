@@ -410,6 +410,26 @@ body {
 
   }
 
+  .feed {
+    float: left;
+    width: 75%;
+    margin-top: 12px;
+    margin-left: 5px;
+    align-content: left;
+
+  }
+
+  .sidebar {
+    display: inline-block;
+    width: 23%;
+    margin-top: 12px;
+    margin-right: 5px;
+    outline: 2px solid rgb(202, 204, 216);
+    border-radius: 10px;
+
+  }
+
+
 
 
   .frameFour{
