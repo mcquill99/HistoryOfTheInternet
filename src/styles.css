@@ -442,18 +442,25 @@ body {
     margin-right: 10% !important;
   }
 
-  .frameFour h1 {
+  .frameFour .intro-text h1 {
       font-family: Futura,Trebuchet MS,Arial,sans-serif;  
       font-size: 75px !important; 
       color: #F87849;
       text-align: right;
   }
 
-  .frameFour h2 {
+  .frameFour .intro-text h2 {
     color: #504E40;
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     font-size: 40px !important; 
   }
+
+  .frameFour h1 {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;  
+    font-size: 48px !important; 
+    color: black;
+    text-align: center;
+}
 
   .frameFour p {
     color: black;
@@ -472,8 +479,6 @@ body {
   font-weight: lighter;
   font-size: 18px !important;
 }
-
-
   
 /* width */
 .frameFour ::-webkit-scrollbar {
@@ -534,7 +539,7 @@ h3 {
 }
 
 
-/* WELCOME PAGE */
+/* INTRO PAGE */
 .intro{
 
 }

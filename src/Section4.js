@@ -63,6 +63,7 @@ class Section4 extends React.Component {
 
 
             {/* CARDS */}
+            <h1>Bootstrap</h1>
             <div className="card-deck pb-5 mx-auto" width={'90%'} id="card-section">
               <div className="card">
                 <img className="card-img-top" src={bootstrapPic} alt="Card image cap"/>
