@@ -4,8 +4,8 @@ import backgroundTwo from "./images/winxpproblur.png";
 import back from "./images/back.jpg";
 import pizzaHut from "./images/pizza-hut-1998.gif";
 import netflix from "./images/netflix.gif";
+import y2kLogo from "./images/wwwPurple.png";
 import placeholder from "./images/placeholder.png";
-import logoTwo from ".images/secondframeLogo.png"
 
 class Section2 extends React.Component {
   render() {
@@ -34,7 +34,7 @@ class Section2 extends React.Component {
             <div id="f2content">
             <div class="row">
                 <div class="column eraTwoLogo">
-                <img src={logoTwo}></img>
+                  <img src={y2kLogo} width={170}/>
                 </div>
                 <div class="column eraTwoWelcome">
                     <h5>Welcome to the early 2000s</h5>

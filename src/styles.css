@@ -139,11 +139,13 @@ body {
 
 .eraTwoLogo {
   width: 20%;
-  background-color: pink;
+  padding-top: 10px;
+  padding-left: 4px;
 }
 
 .eraTwoWelcome {
   width: 75%;
+  align-content: right;
   background-color: #D8C978;
 }
 
