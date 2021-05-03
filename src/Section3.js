@@ -31,7 +31,7 @@ class Section3 extends React.Component {
 
             
             <div className="feed" id="loggedInFeed" style={{display:'none'}}>
-              alternate div, trying to switch to this. delete this one if you delete anything, the feed with id loginPageFeed is working fine on its own
+              <p>the text</p>
 
 
 
@@ -43,6 +43,8 @@ class Section3 extends React.Component {
               <input type="text" placeholder="Enter Username" id="uname" style={{width:'80%'}} required/>
               <br/><br/>
               <input type="password" placeholder="Enter Password" id="pwd" style={{width:'80%'}} required/>
+              <br></br>
+              <br></br>
               <button id="loginButton" onClick={SwitchDiv}>Log in</button>
               
             </div>
