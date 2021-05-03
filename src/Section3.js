@@ -40,6 +40,7 @@ class Section3 extends React.Component {
               <input type="submit" id="showPostButton" onClick={showPost} value="Create New Post"/>
               </div>
               <br></br>
+              <br></br>
               <div className="createPost" id="create-post">
                 <h2>Create New Post</h2>
                 <input type="text" placeholder="Post Title" id="title" style={{width:'75%'}} required/>
@@ -50,7 +51,8 @@ class Section3 extends React.Component {
                     <input type="submit" id="submit-post" onClick={WritePost} value="Post"/>
                     <p id="error">Error: Please fill in all fields.</p>
               </div>
-
+              <br></br>
+              <br></br>
              <div id="post-list">
 
               <div className="socialPost">

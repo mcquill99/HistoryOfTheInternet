@@ -498,7 +498,7 @@ body {
     height: auto;
     background-color: #e3e3e3;
     padding: 1px 10px 10px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     -webkit-box-shadow:0 0 3px #cdcfbf; 
     -moz-box-shadow: 0 0 3px #cdcfbf; 
     box-shadow:0 0 3px #cdcfbf;
@@ -539,21 +539,21 @@ body {
 
 #show-post{
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 50px;
 }
 
 #showPostButton{
   width: 100px;
   height: 80px;
-  border: darkslategrey;
+  border: 6981a1;
   border-width: 8px;
+  float: left;
   background-color: white;
   font-size: 15px;
+  color: #526783;
   white-space: normal;
   border-radius: 5px;
-    border: #525457 3px solid;
+    border: #6981a1 3px solid;
     box-shadow: 0 !important;
 
   
