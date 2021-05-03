@@ -146,15 +146,18 @@ body {
 }
 
 .eraTwoLogo {
-  width: 20%;
-  padding-top: 10px;
+  width: 30%;
+  padding-top: 15px;
   padding-left: 5px;
 }
 
 .eraTwoWelcome {
-  width: 77%;
+  width: 64.3%;
   align-content: right;
   background-color: #D8C978;
+  float: right;
+  margin-right: 9px;
+  margin-top: 15px;
 }
 
 .eraTwoWelcome h5{
@@ -439,8 +442,9 @@ body {
     float: left;
     width: 75%;
     margin-top: 12px;
-    margin-left: 5px;
+    margin-left: 10px;
     align-content: left;
+    
 
   }
 
