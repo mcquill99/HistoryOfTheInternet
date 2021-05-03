@@ -51,7 +51,7 @@ class Section3 extends React.Component {
               <div className="socialPost">
                 <h2>Web 2.0 is here!</h2>
                 <p>Web 2.0 refers to websites that emphasize user-generated content and participatory culture for end users.
-                  Users interact as through social media feeds with user-generated content. 
+                  Users interact through social media feeds with user-generated content. 
                   Example of web 2.0 sites include Facebook, YouTube, Flickr, and Wordpress.
                 </p>
                 <div className="postImg">
