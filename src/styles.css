@@ -494,7 +494,7 @@ body {
   }
 
   .socialPost {
-    width: 90%;
+    width: 96%;
     height: auto;
     background-color: #e3e3e3;
     padding: 1px 10px 10px 10px;
@@ -544,6 +544,21 @@ body {
   height: 50px;
 }
 
+#showPostButton{
+  width: 100px;
+  height: 80px;
+  border: darkslategrey;
+  border-width: 8px;
+  background-color: white;
+  font-size: 15px;
+  white-space: normal;
+  border-radius: 5px;
+    border: #525457 3px solid;
+    box-shadow: 0 !important;
+
+  
+}
+
 
 
 #error{
@@ -576,6 +591,7 @@ body {
   .socialMediaDescription{
     width: 550px;
   }
+
 
 
   

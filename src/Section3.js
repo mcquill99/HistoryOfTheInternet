@@ -39,6 +39,7 @@ class Section3 extends React.Component {
               <div className="showPost" id="show-post">
               <input type="submit" id="showPostButton" onClick={showPost} value="Create New Post"/>
               </div>
+              <br></br>
               <div className="createPost" id="create-post">
                 <h2>Create New Post</h2>
                 <input type="text" placeholder="Post Title" id="title" style={{width:'75%'}} required/>
@@ -61,7 +62,7 @@ class Section3 extends React.Component {
                 <div className="postImg">
                   <img src={web2}/>
                 </div>
-                
+                <p>👍 Liked by Sam and 4 other friends</p>
 
               </div>
 
@@ -70,7 +71,7 @@ class Section3 extends React.Component {
                 <p>As you may have noticed, social media has become more and more popular within the past few years! And this is just the beginning! The growth of platforms has skyrocketed, an example being with YouTube: in 2006 it had 19.88 million active users a month, then by 2009 the site had 413.61 million active users a month! Talk about growth! 
                 </p>
                 
-
+                <p>👍 Liked by Nate and 8 other friends</p>
               </div>
 
 
@@ -82,6 +83,9 @@ class Section3 extends React.Component {
                 <p></p>
 
 
+                <p>👍 Liked by Aidan and 12 other friends</p>
+
+
 
               </div>
 
@@ -91,7 +95,7 @@ class Section3 extends React.Component {
                 <p>Facebook just added a new way to interact with user posts. Now, friends and family can show their love for everything from family photos to funny cat pictures!</p>
                 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/1200px-Facebook_Thumb_icon.svg.png'></img>
 
-
+                <p>👍 Liked by Shane and 6 other friends</p>
 
               </div>
 
@@ -124,7 +128,6 @@ class Section3 extends React.Component {
     );
   }
 }
-
 
 
 
@@ -162,14 +165,26 @@ function WritePost() {
   var content = document.getElementById("type-area");
   document.getElementById("error").style.display = "none";
 
+  var uname = document.getElementById("sign-in").innerHTML;
+  var uarray = uname.split(" ")[2];
+  var username = uarray.substring(0, uarray.length - 1);
+
   if(title.value && content.value){
     const newDiv = document.createElement("div");
     newDiv.className = "socialPost"
     const newTitle = document.createElement("H1");
     newTitle.innerHTML = title.value
+    const newAuthor = document.createElement("P");
+    newAuthor.innerHTML = username + ":";
+    newAuthor.style.color = 'gray';
     const newBody = document.createTextNode(content.value);
 
+    console.log(newAuthor);
+
     newDiv.appendChild(newTitle);
+    newDiv.appendChild(document.createElement("HR"))
+    newDiv.appendChild(newAuthor);
+    newDiv.appendChild(document.createElement('br'));
     newDiv.appendChild(newBody);
 
     const currentDiv = document.getElementById("post-list");
