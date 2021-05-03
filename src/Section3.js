@@ -31,7 +31,32 @@ class Section3 extends React.Component {
 
             
             <div className="feed" id="loggedInFeed" style={{display:'none'}}>
-              <p>the text</p>
+              <div className="newsFeedLabel">News Feed</div>
+              <div className="socialPost">
+                this is the content for post 1
+
+
+
+              </div>
+              <br></br>
+              <br></br>
+
+              <div className="socialPost">
+                this is the content for post 2
+
+
+
+              </div>
+              <br></br>
+              <br></br>
+
+
+              <div className="socialPost">
+                this is the content for post 3
+
+
+
+              </div>
 
 
 
