@@ -51,7 +51,7 @@ class Section3 extends React.Component {
               <div className="socialPost">
                 <h2>Web 2.0 is here!</h2>
                 <p>Web 2.0 refers to websites that emphasize user-generated content and participatory culture for end users.
-                  Users interact as through social media feeds with user-generated content. 
+                  Users interact through social media feeds with user-generated content. 
                   Example of web 2.0 sites include Facebook, YouTube, Flickr, and Wordpress.
                 </p>
                 <div className="postImg">
@@ -90,13 +90,14 @@ class Section3 extends React.Component {
 
             </div>
             <div className="sidebar">
-              <p id="sign-in">Sign into account</p>
+              <p id="sign-in">Sign in here</p>
               <input type="text" placeholder="Enter Username" id="uname" style={{width:'80%'}} required/>
               <br/><br/>
               <input type="password" placeholder="Enter Password" id="pwd" style={{width:'80%'}} required/>
               <br></br>
               <br></br>
               <button id="loginButton" onClick={SwitchDiv}>Log in</button>
+              <p id="login-error">Error: Please fill in all fields.</p>
               
             </div>
             
@@ -112,6 +113,7 @@ class Section3 extends React.Component {
 }
 
 function SwitchDiv() {
+  document.getElementById("login-error").style.display = "none";
   const login_screen = document.getElementById("loginPageFeed");
   const logged_in_screen = document.getElementById("loggedInFeed");
   const login_btn = document.getElementById("loginButton");
@@ -129,6 +131,9 @@ function SwitchDiv() {
     uname.style.display = 'none';
     pwd.style.display = 'none';
   }
+  else{
+    document.getElementById("login-error").style.display = "block";
+  }
 
   // If u want to remove login button, too. 
   // login_btn.style.display = 'none';
@@ -138,6 +143,7 @@ function SwitchDiv() {
 function WritePost() {
   var title = document.getElementById("title");
   var content = document.getElementById("type-area");
+  document.getElementById("error").style.display = "none";
 
   if(title.value && content.value){
     const newDiv = document.createElement("div");

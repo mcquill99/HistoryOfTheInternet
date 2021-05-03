@@ -391,6 +391,10 @@ body {
     font-family: 'Trebuchet MS', verdana, arial, sans-serif;
   }
 
+  .frameThree h2{
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif !important;
+  }
+
   /* width */
   .frameThree ::-webkit-scrollbar {
     width: 15px;
@@ -480,6 +484,13 @@ body {
     box-shadow: 0 !important;
   }
 
+  #create-post{
+    background-color:lightblue;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+
+  }
+
   .socialPost {
     width: 90%;
     height: auto;
@@ -503,11 +514,26 @@ body {
 }
 
 #submit-post{
+  background: rgb(5, 23, 37);
+    background: linear-gradient(0deg, rgb(3, 24, 41) 0%, rgb(50, 66, 80) 63%,rgb(3, 24, 41) 100%);
+    font-size: 16px;
+    color: white;
+    padding: 5px 15px;
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
+    border-radius: 5px;
+    border:#369 2px solid;
+    box-shadow: 0 !important;
   margin-left: 450px;
   margin-bottom: 20px;
+  
 }
 
 #error{
+  color: red;
+  display: none;
+}
+
+#login-error{
   color: red;
   display: none;
 }
