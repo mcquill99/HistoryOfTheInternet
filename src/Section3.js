@@ -95,6 +95,7 @@ class Section3 extends React.Component {
               <br></br>
               <br></br>
               <button id="loginButton" onClick={SwitchDiv}>Log in</button>
+              <p id="login-error">Error: Please fill in all fields.</p>
               
             </div>
             
@@ -110,6 +111,7 @@ class Section3 extends React.Component {
 }
 
 function SwitchDiv() {
+  document.getElementById("login-error").style.display = "none";
   const login_screen = document.getElementById("loginPageFeed");
   const logged_in_screen = document.getElementById("loggedInFeed");
   const login_btn = document.getElementById("loginButton");
@@ -127,6 +129,9 @@ function SwitchDiv() {
     uname.style.display = 'none';
     pwd.style.display = 'none';
   }
+  else{
+    document.getElementById("login-error").style.display = "block";
+  }
 
   // If u want to remove login button, too. 
   // login_btn.style.display = 'none';
@@ -136,6 +141,7 @@ function SwitchDiv() {
 function WritePost() {
   var title = document.getElementById("title");
   var content = document.getElementById("type-area");
+  document.getElementById("error").style.display = "none";
 
   if(title.value && content.value){
     const newDiv = document.createElement("div");

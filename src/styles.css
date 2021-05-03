@@ -533,6 +533,11 @@ body {
   display: none;
 }
 
+#login-error{
+  color: red;
+  display: none;
+}
+
 
 
   .sidebar {
