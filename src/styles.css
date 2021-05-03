@@ -467,6 +467,7 @@ body {
     height: 30px;
     background-color: lightsteelblue;
     border-radius: 20px;
+    padding-top: 10px;
     margin-bottom: 20px;
     text-align: center;
   }
