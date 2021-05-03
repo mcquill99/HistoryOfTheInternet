@@ -5,7 +5,6 @@ import modernGraphic from "./images/modern-graphic.png";
 import internet from "./images/internet-sm.png";
 import placeholder from "./images/placeholder.png";
 import bootstrapPic from "./images/bootstrap.png";
-import frontEnd from "./images/front-end.png";
 import react from "./images/react.png";
 import angular from "./images/angular.png";
 import vue from "./images/vue.png";
