@@ -513,6 +513,10 @@ body {
   font-family: 'Trebuchet MS', verdana, arial, sans-serif;
 }
 
+#type-area{
+  resize: none;
+}
+
 #submit-post{
   background: rgb(5, 23, 37);
     background: linear-gradient(0deg, rgb(3, 24, 41) 0%, rgb(50, 66, 80) 63%,rgb(3, 24, 41) 100%);
