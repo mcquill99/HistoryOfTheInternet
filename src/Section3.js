@@ -34,7 +34,7 @@ class Section3 extends React.Component {
             </div>
             
             <div className="feed" id="loggedInFeed" style={{display:'none'}}>
-              <div className="newsFeedLabel">News Feed</div>
+              <div className="newsFeedLabel">Feed</div>
 
               <div className="createPost" id="create-post">
                 <h2>Create New Post</h2>
