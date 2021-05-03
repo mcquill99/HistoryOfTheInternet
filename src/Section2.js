@@ -139,15 +139,9 @@ class Section2 extends React.Component {
                     </td>
                     <td>
 
-                      <p>With the Introduction of HTML 3.2 on January 14, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along with the release of CSS the month prior, created the first user-friendly way to style individual sections of a web page. 
-                        <br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselves
-                      </p>
-
-                      <p>With the Introduction of HTML 3.2 on January 14th, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along side the release of CSS the month prior, created the first easy to use way of styling individual sections of a web page. 
-                        <br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselves can contain headings and cells.
-                        <br/> HTML 4 was released less than a year later on December 18th, 1997. It was not as big of an update as 3.2, and mostly served to more well define HTML semantics.
-
-                      </p>
+                      <p>With the Introduction of HTML 3.2 on January 14th, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along side the release of CSS the month prior, created the first easy to use way of styling individual sections of a web page.</p>
+                      <p><br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselves can contain headings and cells.</p>
+                      <p><br/> HTML 4 was released less than a year later on December 18th, 1997. It was not as big of an update as 3.2, and mostly served to more well define HTML semantics.</p>
                     </td>
                     </tr>
                   </tbody>
