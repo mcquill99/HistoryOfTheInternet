@@ -20,21 +20,36 @@ class Section3 extends React.Component {
             <img src={logoEraThree} width={360}/>
           </div>
           </div>
+          
           <div className="whiteHolder">
-            <div className="feed" id="loginPageFeed">
-              <img src={marathon} width={550} height={340}/>
+    
+
+          <div className="feed" id="loginPageFeed">
+              <img src={marathon} width={'100%'} height={'auto'}/>
               <br></br>
               <div className="socialMediaDescription">
               By the late 2000s, the number of users on social media had skyrocketed. Login to explore this era.
               </div>
             </div>
-
-
             
             <div className="feed" id="loggedInFeed" style={{display:'none'}}>
               <div className="newsFeedLabel">News Feed</div>
+
+              <div className="createPost" id="create-post">
+                <h2>Create New Post</h2>
+                <input type="text" placeholder="Post Title" id="title" style={{width:'75%'}} required/>
+                <br/><br/>
+                  <textarea placeholder="What's on your mind?" id="type-area" name="post" rows="6" cols="60">
+                    </textarea>
+                    <br/><br/>
+                    <input type="submit" id="submit-post" onClick={WritePost} value="Post"/>
+                    <p id="error">Error: Please fill in all fields.</p>
+              </div>
+
+             <div id="post-list">
+
               <div className="socialPost">
-                <h4>Web 2.0 is here!</h4>
+                <h2>Web 2.0 is here!</h2>
                 <p>Web 2.0 refers to websites that emphasize user-generated content and participatory culture for end users.
                   Users interact as through social media feeds with user-generated content. 
                   Example of web 2.0 sites include Facebook, YouTube, Flickr, and Wordpress.
@@ -43,11 +58,8 @@ class Section3 extends React.Component {
                   <img src={web2}/>
                 </div>
 
-
-
               </div>
-              <br></br>
-              <br></br>
+
 
               <div className="socialPost">
                 <h1>David After Dentist</h1>
@@ -59,14 +71,14 @@ class Section3 extends React.Component {
 
 
               </div>
-              <br></br>
-              <br></br>
 
 
               <div className="socialPost">
                 this is the content for post 3
 
 
+
+              </div>
 
               </div>
 
@@ -121,23 +133,32 @@ function SwitchDiv() {
   
 }
 
-/* this is the jquery i was trying to use to switch the div content */
-$('#loginButton').on('click', function(){
-  if($('#loginPageFeed').css('display')!='none'){
-    $('#loggedInFeed').html('Logged in feed').show().siblings('div').hide();
-  }else if($('#loggedInFeed').css('display')!='none'){
-    $('#loginPageFeed').show().siblings('div').hide();
+function WritePost() {
+  var title = document.getElementById("title");
+  var content = document.getElementById("type-area");
+
+  if(title.value && content.value){
+    const newDiv = document.createElement("div");
+    newDiv.className = "socialPost"
+    const newTitle = document.createElement("H2");
+    newTitle.innerHTML = title.value
+    const newBody = document.createTextNode(content.value);
+
+    newDiv.appendChild(newTitle);
+    newDiv.appendChild(newBody);
+
+    const currentDiv = document.getElementById("post-list");
+    currentDiv.insertBefore(newDiv, currentDiv.firstElementChild);
+
+    title.value =  "";
+    content.value = "";
+
+}   
+  else{
+    document.getElementById("error").style.display = "block";
   }
-});
-
-
-
-
-
-
-
-
-
+ 
+}
 
 export default Section3;
 

@@ -443,16 +443,17 @@ body {
 
   .feed {
     float: left;
-    width: 75%;
+    width: 70%;
     margin-top: 12px;
     margin-left: 23px;
+    margin-right: 40px;
     align-content: left;
     
   }
 
 
   .newsFeedLabel {
-    width: 500px;
+    width: 100%;
     height: 30px;
     background-color: lightsteelblue;
     border-radius: 20px;
@@ -461,11 +462,11 @@ body {
   }
 
   .socialPost {
-    width: 500px;
+    width: 90%;
     height: auto;
     background-color: #e3e3e3;
-    padding: 1px 10px 10px 10px
-    
+    padding: 1px 10px 10px 10px;
+    margin-bottom: 30px;
     
 
   }
@@ -476,6 +477,16 @@ body {
 
 .socialPost img{
   width: 100%;
+}
+
+#submit-post{
+  margin-left: 450px;
+  margin-bottom: 20px;
+}
+
+#error{
+  color: red;
+  display: none;
 }
 
 
