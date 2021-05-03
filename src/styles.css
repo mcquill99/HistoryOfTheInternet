@@ -295,6 +295,15 @@ body {
   margin-left: 10px;
 }
 
+.searchBtn:hover {
+  margin-left: 10px;
+  cursor: url("./cursors/section2/xp_link.cur"), auto;
+}
+
+#site-search:hover{
+  cursor: url("./cursors/section2/xp_beam.cur"), auto;
+}
+
 #ad:hover{
   cursor: url("./cursors/section2/xp_link.cur"), auto;
 }
@@ -307,6 +316,10 @@ body {
   height: auto;
 }
 
+#back-btn:hover {
+  cursor: url("./cursors/section2/xp_link.cur"), auto;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -315,28 +328,28 @@ body {
 
   /* ------------------------------- */
     /* width */
-    iframe#pizza-site::-webkit-scrollbar, .frameTwo ::-webkit-scrollbar {
+    .frameTwo ::-webkit-scrollbar {
       width: 22px;
       
     }
   
     /* Track */
-    iframe#pizza-site::-webkit-scrollbar-track , .frameTwo ::-webkit-scrollbar-track {
+    .frameTwo ::-webkit-scrollbar-track {
       background: #fffbff
     }
   
-    iframe#pizza-site::-webkit-scrollbar-corner, .frameTwo ::-webkit-scrollbar-corner{
+    .frameTwo ::-webkit-scrollbar-corner{
       background: rgb(230, 228, 230)
     }
   
     /* Handle */
-    iframe#pizza-site::-webkit-scrollbar-thumb, .frameTwo ::-webkit-scrollbar-thumb {
+    .frameTwo ::-webkit-scrollbar-thumb {
       background: url('./images/early2000sScroll.png');
       background-size: 100% 100%;
     }
   
     /* Handle on hover */
-    iframe#pizza-site::-webkit-scrollbar-thumb:hover, .frameTwo ::-webkit-scrollbar-thumb:hover {
+    .frameTwo ::-webkit-scrollbar-thumb:hover {
       background: linear-gradient( rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.00)), url('./images/early2000sScroll.png');
       background-size: 100% 100%;
     }
