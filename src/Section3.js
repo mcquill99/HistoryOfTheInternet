@@ -27,7 +27,8 @@ class Section3 extends React.Component {
               </div>
             </div>
             <div className="sidebar">
-              <p>Login</p>
+              <p>Sign into account</p>
+              <button class="loginButton">Log in</button>
               
             </div>
             
