@@ -39,7 +39,10 @@ class Section3 extends React.Component {
 
             </div>
             <div className="sidebar">
-              <p>Sign into account</p>
+              <p id="sign-in">Sign into account</p>
+              <input type="text" placeholder="Enter Username" id="uname" style={{width:'80%'}} required/>
+              <br/><br/>
+              <input type="password" placeholder="Enter Password" id="pwd" style={{width:'80%'}} required/>
               <button id="loginButton" onClick={SwitchDiv}>Log in</button>
               
             </div>
@@ -59,9 +62,20 @@ function SwitchDiv() {
   const login_screen = document.getElementById("loginPageFeed");
   const logged_in_screen = document.getElementById("loggedInFeed");
   const login_btn = document.getElementById("loginButton");
+  const sign_in_text = document.getElementById("sign-in");
 
-  login_screen.style.display = 'none';
-  logged_in_screen.style.display = 'block';
+  const uname = document.getElementById("uname");
+  const pwd = document.getElementById("pwd");
+
+  // Only switch div if user enters a username and password
+  if((uname.value.length > 0) && (pwd.value.length > 0)){
+    login_screen.style.display = 'none';
+    logged_in_screen.style.display = 'block';
+    sign_in_text.innerHTML = "Welcome back, " + uname.value + "!";
+    login_btn.style.display = 'none';
+    uname.style.display = 'none';
+    pwd.style.display = 'none';
+  }
 
   // If u want to remove login button, too. 
   // login_btn.style.display = 'none';
