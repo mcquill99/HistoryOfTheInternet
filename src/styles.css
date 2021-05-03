@@ -440,7 +440,7 @@ body {
   .whiteHolder {
     background-color: white;
     width: 70%;
-    height: 2000px;
+    height: 3000px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -498,6 +498,9 @@ body {
     background-color: #e3e3e3;
     padding: 1px 10px 10px 10px;
     margin-bottom: 30px;
+    -webkit-box-shadow:0 0 3px #cdcfbf; 
+    -moz-box-shadow: 0 0 3px #cdcfbf; 
+    box-shadow:0 0 3px #cdcfbf;
     
 
   }

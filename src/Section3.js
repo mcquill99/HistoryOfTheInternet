@@ -58,6 +58,15 @@ class Section3 extends React.Component {
                 <div className="postImg">
                   <img src={web2}/>
                 </div>
+                
+
+              </div>
+
+              <div className="socialPost">
+                <h1>Social media is booming!</h1>
+                <p>As you may have noticed, social media has become more and more popular within the past few years! And this is just the beginning! The growth of platforms has skyrocketed, an example being with YouTube: in 2006 it had 19.88 million active users a month, then by 2009 the site had 413.61 million active users a month! Talk about growth! 
+                </p>
+                
 
               </div>
 
@@ -113,6 +122,10 @@ class Section3 extends React.Component {
   }
 }
 
+
+
+
+
 function SwitchDiv() {
   document.getElementById("login-error").style.display = "none";
   const login_screen = document.getElementById("loginPageFeed");
@@ -167,6 +180,7 @@ function WritePost() {
     document.getElementById("error").style.display = "block";
   }
  
+  
 }
 
 export default Section3;
