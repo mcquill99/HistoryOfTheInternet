@@ -39,6 +39,7 @@ class Section3 extends React.Component {
               <div className="showPost" id="show-post">
               <input type="submit" id="showPostButton" onClick={showPost} value="Create New Post"/>
               </div>
+              <br></br>
               <div className="createPost" id="create-post">
                 <h2>Create New Post</h2>
                 <input type="text" placeholder="Post Title" id="title" style={{width:'75%'}} required/>
