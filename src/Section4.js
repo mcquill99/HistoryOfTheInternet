@@ -5,6 +5,10 @@ import modernGraphic from "./images/modern-graphic.png";
 import internet from "./images/internet-sm.png";
 import placeholder from "./images/placeholder.png";
 import bootstrapPic from "./images/bootstrap.png";
+import frontEnd from "./images/front-end.png";
+import react from "./images/react.png";
+import angular from "./images/angular.png";
+import vue from "./images/vue.png";
 import chrome from "./images/chrome.png";
 import safari from "./images/safari.png";
 import firefox from "./images/firefox.png";
@@ -103,12 +107,33 @@ class Section4 extends React.Component {
                 <br/>
               </div>
               
-              <div className="col-md-6 d-flex justify-content-center">
-              <button type="button" id="react" class="btn btn-lg" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">React</button>
-                  </div>
-              <div className="col-md-6 d-flex justify-content-center">
-              <button type="button" id="angular" class="btn btn-lg btn-danger" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Angular</button>
+              <div className="col-md-4 justify-content-center">
+                <div>
+                    <img src={react} className="img-fluid"/>
+                </div>
+                <div className="text-center">
+                  <button type="button" id="react" class="btn btn-lg" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">React</button>
+                </div>
               </div>
+
+              <div className="col-md-4 justify-content-center">
+                <div>
+                    <img src={angular} className="img-fluid"/>
+                </div>
+                <div className="text-center">
+                  <button type="button" id="angular" class="btn btn-lg btn-danger" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Angular</button>
+                </div>
+              </div>
+
+              <div className="col-md-4 justify-content-center">
+                <div>
+                    <img src={vue} className="img-fluid"/>
+                </div>
+                <div className="text-center">
+                  <button type="button" id="vue" class="btn btn-lg" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Vue</button>
+                </div>
+              </div>
+
               <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
                 <p className="mx-auto p-1">Next</p>
                 </button>
@@ -234,33 +259,35 @@ class Section4 extends React.Component {
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
             {/* ACCORDION */}
+            <h1>What is the WWW used for today?</h1>
             <div id="accordion">
               <div className="card">
                 <div className="card-header" id="headingOne">
                   <h5 className="mb-0">
                     <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Collapsible Group Item #1
+                      <a>Email</a>
                     </button>
                   </h5>
                 </div>
 
                 <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                   <div className="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
+                    Email still remains a main form of online communication. The World Wide Web allows users to access their email through providers like Gmail, Outlook, and Yahoo Mail.</div>
                 </div>
               </div>
               <div className="card">
                 <div className="card-header" id="headingTwo">
                   <h5 className="mb-0">
                     <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Collapsible Group Item #2
+                      <a>Streaming/Watching Content</a>
                     </button>
                   </h5>
                 </div>
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                   <div className="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Over the last decade, online video content has skyrocketed in popularity. YouTube, an online video platform, sees over 30 million visitors a day. 300 hours of video are uploaded to YouTube every minute and almost 5 billion videos are watched on Youtube every single day.
+                    <br/><br/>Streaming videos is also a popular option with a growing number of services such as Netflix, Hulu, Disney Plus, HBO Max, Peacock, and more.
+                    <br/><br/>There are thousands of content creators on YouTube that make money on the platform by monetizing their content and generating ad revenue (AdSense).
                   </div>
                 </div>
               </div>
@@ -268,13 +295,27 @@ class Section4 extends React.Component {
                 <div className="card-header" id="headingThree">
                   <h5 className="mb-0">
                     <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Collapsible Group Item #3
+                      <a>Social Networks</a>
                     </button>
                   </h5>
                 </div>
                 <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                   <div className="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Every day, millions and millions of people use the World Wide Web to access social networks such as Facebook, Twitter, and Instagram. Of course, many people also access these sites via apps from their mobile devices.
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header" id="headingFour">
+                  <h5 className="mb-0">
+                    <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <a>Philanthropy/Crowdfunding</a>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div className="card-body">
+                    Websites like GoFundMe and Indiegogo let people raise and donate money for all different causes. Never have people had such visibility and widespread-reach to raise money for their specific cause.
                   </div>
                 </div>
               </div>

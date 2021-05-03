@@ -632,7 +632,7 @@ h3 {
   width: 90%;
 }
 
-.has_bootstrap .card{
+.has_bootstrap .card-deck .card{
   border: none !important;
 }
 
@@ -646,12 +646,23 @@ h3 {
   object-fit: contain;
 }
 
+.has_bootstrap h5 button{
+  font-family: Futura, sans-serif !important; 
+}
+
+#accordion .card-header a {
+}
+
 #react{
   background-color: #61dafb;
 }
 
 #angular{
   background-color: #c02836;
+}
+
+#vue{
+  background-color: #42b983;
 }
 
 
