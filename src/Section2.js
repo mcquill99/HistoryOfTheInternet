@@ -232,7 +232,7 @@ class Section2 extends React.Component {
 
               <br />
 
-              <img onClick={Pizza} src={pizzaHut} style={{cursor: 'pointer'}} width={'100%'}/>
+              <img id="ad" onClick={Pizza} src={pizzaHut} width={'100%'}/>
 
 
               {/* PEOPLE */}
@@ -256,7 +256,7 @@ class Section2 extends React.Component {
                 </table>
 
                 <br />
-                <img onClick={Netflix} style={{border: 'black 1px solid'}} src={netflix} width={'100%'}/>
+                <img id="ad" onClick={Netflix} style={{border: 'black 1px solid'}} src={netflix} width={'100%'}/>
               </div>
               {/* -----END RIGHT COLUMN----- */}
             

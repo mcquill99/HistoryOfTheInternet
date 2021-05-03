@@ -39,9 +39,11 @@ body {
     background-size: 100% 100%;
     min-height: 95%;
     text-align: left;
-    
+    cursor: url("./cursors/section1/arrow.cur"), auto;  
+  }
 
-    
+  .frameOne a:hover{
+    cursor: url("./cursors/section1/link.cur"), auto;    
   }
 
   .frameOne .layout{
@@ -115,6 +117,11 @@ body {
     min-height: 90%;
     text-align: left;
     border-radius: 5px;
+    cursor: url("./cursors/section2/xp_arrow.cur"), auto;
+  }
+
+  .frameTwo a:hover{
+    cursor: url("./cursors/section2/xp_link.cur"), auto;
   }
 
   .frameTwo .layout{
@@ -286,6 +293,10 @@ body {
 
 .searchBtn {
   margin-left: 10px;
+}
+
+#ad:hover{
+  cursor: url("./cursors/section2/xp_link.cur"), auto;
 }
 
 #back-btn{
