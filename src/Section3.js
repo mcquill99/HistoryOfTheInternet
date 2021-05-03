@@ -110,6 +110,14 @@ class Section3 extends React.Component {
             </div>
             <div className="sidebar">
               <p id="sign-in">Sign in here</p>
+              <ul id="profile">
+                <hr></hr>
+                <li><b>Age:</b> 21</li>
+                <br/>
+                <li><b>Location:</b> Ithaca, NY</li>
+                <br/>
+                <li><b>Interests:</b> The WWW, Computer Science</li>
+              </ul>
               <input type="text" placeholder="Enter Username" id="uname" style={{width:'80%'}} required/>
               <br/><br/>
               <input type="password" placeholder="Enter Password" id="pwd" style={{width:'80%'}} required/>
@@ -148,6 +156,7 @@ function SwitchDiv() {
   if((uname.value.length > 0) && (pwd.value.length > 0)){
     login_screen.style.display = 'none';
     logged_in_screen.style.display = 'block';
+    document.getElementById("profile").style.display = "block";
     sign_in_text.innerHTML = "Welcome back, " + uname.value + "!";
     login_btn.style.display = 'none';
     uname.style.display = 'none';

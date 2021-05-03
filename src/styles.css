@@ -485,6 +485,21 @@ body {
     box-shadow: 0 !important;
   }
 
+  #profile{
+    display: none;
+  }
+
+  ul#profile{
+    list-style-type: none;
+    text-align: left;
+    font-size: 14px;
+    padding-inline-start: 10px;
+  }
+
+  ul#profile li{
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
+  }
+
   #create-post{
     background-color:#a1badb;
     padding: 5px 15px;
@@ -829,7 +844,8 @@ h3 {
 .anim-typewriter{
 
   animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+             blinkTextCursor 500ms steps(44) 11 normal;
+  animation-fill-mode: both,forwards;
 }
 
 .anim-typewriter-two{
@@ -847,7 +863,6 @@ h3 {
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+  to{border-right-color: transparent; }
+  
 }
-
-
