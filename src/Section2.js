@@ -43,11 +43,7 @@ class Section2 extends React.Component {
                         <table class="tg">
                           <thead>
                             <tr>
-                              <th>TAB 1</th>
-                              <th style={{backgroundColor: '#FFFFBA'}}>TAB 2</th>
-                              <th>TAB 3</th>
-                              <th>TAB 4</th>
-                              <th style={{width: '50%'}}></th>
+                            <marquee behavior="scroll" direction="left" bgcolor="lightblue">This will be a fun flashy banner reading something interesting! If you have something interesting to put here, please change the text in the JS file !!</marquee>
                             </tr>
                           </thead>
                           </table>

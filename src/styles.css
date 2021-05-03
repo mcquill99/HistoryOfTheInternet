@@ -132,7 +132,7 @@ body {
     height: 75.5%;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 0 10px;
+    padding: 0 20px;
 
   }
 
@@ -279,7 +279,7 @@ body {
 .right table td ul{
   padding: 0%;
   list-style-type: none;
-  line-height:150%
+  line-height:100%
 }
 
 .right table td li{
