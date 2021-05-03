@@ -22,7 +22,8 @@ class Section3 extends React.Component {
               this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed
             </div>
             <div className="sidebar">
-              this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar 
+              <p>Login to explore!</p>
+              
             </div>
             
           </div>
