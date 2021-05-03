@@ -57,6 +57,8 @@ class Section3 extends React.Component {
 
               <div className="socialPost">
                 <h1>Web 2.0 is here!</h1>
+                <hr></hr>
+                <p style={{color:'gray'}}>Sam:</p>
                 <p>Web 2.0 refers to websites that emphasize user-generated content and participatory culture for end users.
                   Users interact through social media feeds with user-generated content. 
                   Example of web 2.0 sites include Facebook, YouTube, Flickr, and Wordpress.
@@ -70,6 +72,8 @@ class Section3 extends React.Component {
 
               <div className="socialPost">
                 <h1>Social media is booming!</h1>
+                <hr></hr>
+                <p style={{color:'gray'}}>Sean:</p>
                 <p>As you may have noticed, social media has become more and more popular within the past few years! And this is just the beginning! The growth of platforms has skyrocketed, an example being with YouTube: in 2006 it had 19.88 million active users a month, then by 2009 the site had 413.61 million active users a month! Talk about growth! 
                 </p>
                 
@@ -79,6 +83,8 @@ class Section3 extends React.Component {
 
               <div className="socialPost">
                 <h1>Check Out This Funny Viral Video!</h1>
+                <hr></hr>
+                <p style={{color:'gray'}}>Devery:</p>
                 <iframe width="470" height="225" src="https://www.youtube.com/embed/txqiwrbYGrs"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -94,6 +100,8 @@ class Section3 extends React.Component {
 
               <div className="socialPost">
                 <h1>Facebook Introduces the "Like" Button</h1>
+                <hr></hr>
+                <p style={{color:'gray'}}>Devery:</p>
                 <p>Facebook just added a new way to interact with user posts. Now, friends and family can show their love for everything from family photos to funny cat pictures!</p>
                 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/1200px-Facebook_Thumb_icon.svg.png'></img>
 
