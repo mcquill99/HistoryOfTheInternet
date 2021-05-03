@@ -233,6 +233,8 @@ body {
   width: 54%;
   padding: 10px;
   border: black 1px solid;
+  background-blend-mode: overlay;
+  background-color: #ede0f2;
   margin: 0 10px;
   margin-top: 10px;
 }
