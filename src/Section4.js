@@ -63,7 +63,7 @@ class Section4 extends React.Component {
               <div className="col-md-6 intro d-flex justify-content-center">
                 <div className="row intro-text">
                   <h1 className="col-md-12">The Present</h1>
-                  <h2 className="col-md-12">We've finally made it.</h2>
+                  <h2 className="col-md-12 text-right">We've finally made it.</h2>
                   <p className="col-md-12">A variety of tools help create modern-day websites.</p>
                   <button onClick={GoToBootstrap} id="learn-more" className="col-md-4 mt-4 ml-auto rounded-pill"><p className="mx-auto p-1">Learn More</p></button>
                   </div>
@@ -163,7 +163,7 @@ class Section4 extends React.Component {
             {/* CAROUSEL */}
             <div className="col-12">
                 <h1>Website Builders</h1>
-                <h4>Today, anyone can build a website without needing any coding experience. Website builders are software that lets users drag-and-drop elements onto a black page to create their own sites.</h4>
+                <h4 id="builder-section">Today, anyone can build a website without needing any coding experience. Website builders are software that lets users drag-and-drop elements onto a black page to create their own sites.</h4>
                 <br/>
               </div>
             <div id="carouselExampleCaptions" className="carousel slide w-90" data-ride="carousel">
@@ -182,10 +182,10 @@ class Section4 extends React.Component {
                   <img src={squarespace} className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                  <img src={wix} className="d-block w-100" alt="..."/>
+                  <img src={godaddy} className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                  <img src={godaddy} className="d-block w-100" alt="..."/>
+                  <img src={wix} className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
                   <img src={wordpress} className="d-block w-100" alt="..."/>
@@ -360,7 +360,23 @@ class Section4 extends React.Component {
               </div>
             </div>
 
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <div style={{textAlign:'center'}}>
+
+              <button onClick={GoToEnd} className="mt-4 mx-auto next-btn rounded-pill">
+              <FontAwesomeIcon icon={faChevronDown} style={{color:'white'}}/>
+  
+                </button>
+
+                </div>
+
+            <div style={{paddingBottom:'250px'}}></div>
+
+            <h2 id="end-section" style={{fontSize:'24px'}}>The World Wide Web is still young (Recently turned 30!).<br/>
+              There's still plenty of room for innovation and exploration.<br/>
+              There's no telling what the future will have in store,<br/>
+              But we're sure it will be exciting.</h2>
+
+              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
             
           </div>
@@ -388,7 +404,7 @@ function GoToFront() {
 
 function GoToBuilder() {
   const element = document.getElementById("carouselExampleCaptions");
-  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  element.scrollIntoView({ behavior: 'smooth', block: 'end' });
   
 }
 
@@ -412,6 +428,12 @@ function GoToFlash() {
 
 function GoToUse() {
   const element = document.getElementById("accordion");
+  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  
+}
+
+function GoToEnd() {
+  const element = document.getElementById("end-section");
   element.scrollIntoView({ behavior: 'smooth', block: 'center' });
   
 }
