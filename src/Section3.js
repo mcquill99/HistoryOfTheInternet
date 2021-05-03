@@ -159,14 +159,26 @@ function WritePost() {
   var content = document.getElementById("type-area");
   document.getElementById("error").style.display = "none";
 
+  var uname = document.getElementById("sign-in").innerHTML;
+  var uarray = uname.split(" ")[2];
+  var username = uarray.substring(0, uarray.length - 1);
+
   if(title.value && content.value){
     const newDiv = document.createElement("div");
     newDiv.className = "socialPost"
     const newTitle = document.createElement("H1");
     newTitle.innerHTML = title.value
+    const newAuthor = document.createElement("P");
+    newAuthor.innerHTML = username + ":";
+    newAuthor.style.color = 'gray';
     const newBody = document.createTextNode(content.value);
 
+    console.log(newAuthor);
+
     newDiv.appendChild(newTitle);
+    newDiv.appendChild(document.createElement("HR"))
+    newDiv.appendChild(newAuthor);
+    newDiv.appendChild(document.createElement('br'));
     newDiv.appendChild(newBody);
 
     const currentDiv = document.getElementById("post-list");
