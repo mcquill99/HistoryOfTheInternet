@@ -2,6 +2,7 @@ import React from "react";
 import frameThree from "./images/frameThree.png";
 import backgroundThree from "./images/mac-leopard-blur.png";
 import logoEraThree from "./images/logoEraThree.png";
+import marathon from "./images/marathon.jpeg";
 
 class Section3 extends React.Component {
   render() {
@@ -19,10 +20,15 @@ class Section3 extends React.Component {
           </div>
           <div className="whiteHolder">
             <div className="feed">
-              The amount of active users on social media platforms was increasing greatly by the late 2000s. YouTube's success is a clear example of the migration to social media, with its site having had 19.88 million users in 2006, and 413.61 million users in 2009: just a three year time span. As some platforms flourished, others leveled out or declined in regards to engagement. MySpace was the first social media platform to reach a million active users, achieved in 2004, but began declining in popularity in the late 2000s and failed to compete with other platforms. 
+              <img src={marathon} width={550} height={340}/>
+              <br></br>
+              <div className="socialMediaDescription">
+              By the late 2000s, the number of users on social media had skyrocketed. Login to explore this era.
+              </div>
             </div>
             <div className="sidebar">
-              <p>Login to explore!</p>
+              <p>Sign into account</p>
+              <button class="loginButton">Log in</button>
               
             </div>
             

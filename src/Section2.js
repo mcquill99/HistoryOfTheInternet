@@ -110,10 +110,10 @@ class Section2 extends React.Component {
                     <tr>
                       <td className="itemList">
                         <ul>
-                          <li><a href="http://web.archive.org/web/20040403171900/http://en.wikipedia.org/wiki/Main_Page/" target="_blank">2004 Wikipedia</a></li>
-                          <li><a href="http://web.archive.org/web/20000229063201/http://sixdegrees.com/" target="_blank">2000 SixDegrees</a></li>
-                          <li><a href="http://web.archive.org/web/20020408112812/http://www.audi.com/com/en/home.jsphttps://web.archive.org/web/20060114055946/http://reddit.com/" target="_blank">First partically responsive site</a></li>
-                          <li><a href="http://web.archive.org/web/20040622031340/http://csszengarden.com/" target="_blank">CSS Zen Garden</a></li>
+                          <li><a href="http://web.archive.org/web/20040403171900/http://en.wikipedia.org/wiki/Main_Page/" target="_blank">✦ 2004 Wikipedia</a></li>
+                          <li><a href="http://web.archive.org/web/20000229063201/http://sixdegrees.com/" target="_blank">✦ 2000 SixDegrees</a></li>
+                          <li><a href="http://web.archive.org/web/20020408112812/http://www.audi.com/com/en/home.jsphttps://web.archive.org/web/20060114055946/http://reddit.com/" target="_blank">✦ First partically responsive site</a></li>
+                          <li><a href="http://web.archive.org/web/20040622031340/http://csszengarden.com/" target="_blank">✦ CSS Zen Garden</a></li>
                         </ul>
                         </td>
                     </tr>
