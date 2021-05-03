@@ -372,6 +372,7 @@ body {
     text-align: left;
     border-radius: 10px;
     border-bottom-left-radius: 16px;
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
   }
 
   .frameThree .layout{
@@ -382,7 +383,12 @@ body {
     height: 79.24%;
     overflow-y: scroll;
     overflow-x: hidden;
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
 
+  }
+
+  .frameThree p{
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
   }
 
   /* width */
@@ -461,6 +467,19 @@ body {
     text-align: center;
   }
 
+  #loginButton{
+    background: rgb(15,100,167);
+    background: linear-gradient(0deg, rgba(15,100,167,1) 0%, rgba(137,190,231,1) 63%, rgba(15,100,167,1) 100%);
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
+    border-radius: 5px;
+    border:#369 2px solid;
+    box-shadow: 0 !important;
+  }
+
   .socialPost {
     width: 90%;
     height: auto;
@@ -477,6 +496,10 @@ body {
 
 .socialPost img{
   width: 100%;
+}
+
+.socialPost p, .socialPost h2, .socialPost h1{
+  font-family: 'Trebuchet MS', verdana, arial, sans-serif;
 }
 
 #submit-post{
@@ -651,7 +674,7 @@ button.next-btn p{
 }
 
 
-.section p {
+.section.one p {
   color: black;
   font-family: 'Times New Roman', Times, serif;
 }
