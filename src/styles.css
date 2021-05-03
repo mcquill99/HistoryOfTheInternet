@@ -462,7 +462,7 @@ body {
 
   .socialPost {
     width: 500px;
-    height: 300px;
+    height: auto;
     background-color: #e3e3e3;
     margin-top: 3px;
     

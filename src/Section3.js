@@ -42,7 +42,11 @@ class Section3 extends React.Component {
               <br></br>
 
               <div className="socialPost">
-                this is the content for post 2
+                <h1>David After Dentist</h1>
+                <iframe width="470" height="225" src="https://www.youtube.com/embed/txqiwrbYGrs"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <p></p>
 
 
 
