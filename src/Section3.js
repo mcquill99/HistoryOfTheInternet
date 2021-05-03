@@ -62,7 +62,7 @@ class Section3 extends React.Component {
 
 
               <div className="socialPost">
-                <h1>David After Dentist</h1>
+                <h1>Check Out This Funny Viral Video!</h1>
                 <iframe width="470" height="225" src="https://www.youtube.com/embed/txqiwrbYGrs"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -74,7 +74,9 @@ class Section3 extends React.Component {
 
 
               <div className="socialPost">
-                this is the content for post 3
+                <h1>Facebook Introduces the "Like" Button</h1>
+                <p>Facebook just added a new way to interact with user posts. Now, friends and family can show their love for everything from family photos to funny cat pictures!</p>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/1200px-Facebook_Thumb_icon.svg.png'></img>
 
 
 

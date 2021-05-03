@@ -10,6 +10,7 @@ class Intro extends React.Component {
             <p className="anim-typewriter type">
                 Welcome to the History of the World Wide Web.
             </p>
+            <p className='anim-typewriter-two type '>Scroll down to begin.</p>
 
             </div>
         </div>

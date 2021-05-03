@@ -770,9 +770,19 @@ h3 {
   animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
+
+.anim-typewriter-two{
+  animation: typewriter2 3s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+  animation-delay: 6s;
+}
 @keyframes typewriter{
   from{width: 0;}
   to{width: 28em;}
+}
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 13em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
