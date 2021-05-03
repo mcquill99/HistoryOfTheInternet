@@ -43,7 +43,7 @@ class Section2 extends React.Component {
                         <table class="tg">
                           <thead>
                             <tr>
-                            <marquee behavior="scroll" direction="left" bgcolor="lightblue">This will be a fun flashy banner reading something interesting! If you have something interesting to put here, please change the text in the JS file !!</marquee>
+                            <marquee behavior="scroll" direction="left" bgcolor="lightblue">Welcome to our website! We hope you learn something new! Thanks for visiting!</marquee>
                             </tr>
                           </thead>
                           </table>
