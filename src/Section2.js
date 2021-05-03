@@ -70,8 +70,8 @@ class Section2 extends React.Component {
                     <tr>
                       <td className="itemList">
                         <ul>
-                          <li><a href="#">Milestone 1</a></li>
-                          <li><a>Milestone 2</a></li>
+                          <li><a href="#">Safari 1.0 and Firefox both launch </a></li>
+                          <li><a>Wayback Machine builds an 'Internet Library'</a></li>
                           <li><a>Milestone 3</a></li>
                           <li><a>Milestone 4</a></li>
                           <li><a>Milestone 5</a></li>
@@ -138,8 +138,15 @@ class Section2 extends React.Component {
                       <img src='https://qph.fs.quoracdn.net/main-qimg-9416d9d1043fa198d5841dff9fb0e8f1'style={{width:'100%'}}/>
                     </td>
                     <td>
+
                       <p>With the Introduction of HTML 3.2 on January 14, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along with the release of CSS the month prior, created the first user-friendly way to style individual sections of a web page. 
-                        <br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselbes
+                        <br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselves
+                      </p>
+
+                      <p>With the Introduction of HTML 3.2 on January 14th, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along side the release of CSS the month prior, created the first easy to use way of styling individual sections of a web page. 
+                        <br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselves can contain headings and cells.
+                        <br/> HTML 4 was released less than a year later on December 18th, 1997. It was not as big of an update as 3.2, and mostly served to more well define HTML semantics.
+
                       </p>
                     </td>
                     </tr>
@@ -157,14 +164,14 @@ class Section2 extends React.Component {
 
                             <div className="column entry">
                               <img src={placeholder} style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>HTML 3.2 also </p>
+                              <p style={{float: 'right'}}>CSS2 was later released in May of 1998, which allowed for even more web page customization. It allowed for new powerful positioning tools such as setting elements to relative, absolute, or fixed positioning, and added the z-axis, which let elements be stacked on top of one another.</p>
                             </div>
 
                             <div className='column' style={{width:'10%'}}></div>
                             
                             <div className="column entry">
                               <img src={placeholder} style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>About image 2</p>    
+                              <p style={{float: 'right'}}>This era also marked the launch of the most popular website to ever exist, Google! It was officially launched as a search engine on September 4th, 1998. It started as a research project to find relevant search results using algorithms, but evolved into the giant it is today. The name is based off of the number <b>Googol</b>, which is the number 10 to the hundredth power. We even have working Google search on this page, give it a try!</p>    
                             </div>
                           </div>
                         </td>
@@ -183,14 +190,14 @@ class Section2 extends React.Component {
 
                             <div className="column entry">
                               <img src={placeholder} style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>About image 1</p>
+                              <p style={{float: 'right'}}>You may recognize this background as the default background for Windows XP, which launched on October 25, 2001. Along with it came the release of Internet Explorer 6, the browser you're reading this out of! Even though at the time it was known for having many security flaws, it was the top used browser for the majority of the 2000s, being used by 80% of people surfing the web in 2004.  </p>
                             </div>
 
                             <div className='column' style={{width:'10%'}}></div>
                             
                             <div className="column entry">
                               <img src={placeholder} style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>About image 2</p>    
+                              <p style={{float: 'right'}}>This era also saw the birth of Social Media, although not the golden age of it. Easily the most notable platform of this type at the time was MySpace. Released on August 1st, 2003, it allowed anyone with an account to connect with friends, meet new friends, and discover new music! It was so popular it gained more than one million users in less than a year after its launch. </p>    
                             </div>
                           </div>
                         </td>
