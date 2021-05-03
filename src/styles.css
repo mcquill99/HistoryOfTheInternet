@@ -430,9 +430,10 @@ body {
   .whiteHolder {
     background-color: white;
     width: 70%;
-    height: 1000px;
+    height: 600px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     -webkit-box-shadow:0 0 20px #cdcfbf; 
     -moz-box-shadow: 0 0 20px #cdcfbf; 
     box-shadow:0 0 20px #cdcfbf;
