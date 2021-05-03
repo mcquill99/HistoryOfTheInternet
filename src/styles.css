@@ -462,15 +462,21 @@ body {
 
   .socialPost {
     width: 500px;
-    height: 300px;
+    height: auto;
     background-color: #e3e3e3;
-    margin-top: 3px;
+    padding: 1px 10px 10px 10px
     
     
 
   }
 
+.socialPost .postImg{
+  text-align: center;
+}
 
+.socialPost img{
+  width: 100%;
+}
 
 
 

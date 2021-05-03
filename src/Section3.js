@@ -3,6 +3,7 @@ import frameThree from "./images/frameThree.png";
 import backgroundThree from "./images/mac-leopard-blur.png";
 import logoEraThree from "./images/logoEraThree.png";
 import marathon from "./images/marathon.jpeg";
+import web2 from "./images/web2.png";
 import $ from 'jquery';
 
 class Section3 extends React.Component {
@@ -33,7 +34,14 @@ class Section3 extends React.Component {
             <div className="feed" id="loggedInFeed" style={{display:'none'}}>
               <div className="newsFeedLabel">News Feed</div>
               <div className="socialPost">
-                this is the content for post 1
+                <h4>Web 2.0 is here!</h4>
+                <p>Web 2.0 refers to websites that emphasize user-generated content and participatory culture for end users.
+                  Users interact as through social media feeds with user-generated content. 
+                  Example of web 2.0 sites include Facebook, YouTube, Flickr, and Wordpress.
+                </p>
+                <div className="postImg">
+                  <img src={web2}/>
+                </div>
 
 
 
