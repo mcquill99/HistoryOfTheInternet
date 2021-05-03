@@ -430,7 +430,7 @@ body {
   .whiteHolder {
     background-color: white;
     width: 70%;
-    height: 600px;
+    height: 398px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -445,7 +445,7 @@ body {
     float: left;
     width: 75%;
     margin-top: 12px;
-    margin-left: 10px;
+    margin-left: 23px;
     align-content: left;
     
 
@@ -453,10 +453,10 @@ body {
 
   .sidebar {
     display: inline-block;
-    width: 22%;
+    width: 19%;
     height: 180px;
     margin-top: 13px;
-    margin-right: 8px;
+    margin-right: 20px;
     border-radius: 10px;
     transition: 0.3s;
     background-color: #e3e3e3;
@@ -464,6 +464,10 @@ body {
     color: #4c5285;
     text-align: center;
 
+  }
+
+  .socialMediaDescription{
+    width: 550px;
   }
 
 
