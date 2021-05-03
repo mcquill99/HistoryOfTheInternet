@@ -793,6 +793,7 @@ h3 {
   font-family: 'Courier New','Courier','Lucida Sans Typewriter','Lucida Typewriter',monospace; 
 }
 .anim-typewriter{
+
   animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
@@ -803,12 +804,12 @@ h3 {
   animation-delay: 6s;
 }
 @keyframes typewriter{
-  from{width: 0;}
-  to{width: 28em;}
+  from{width: 0; visibility: hidden;}
+  to{width: 28em; visibility: visible;}
 }
 @keyframes typewriter2{
-  from{width: 0;}
-  to{width: 13em;}
+  from{width: 0; visibility: hidden;}
+  to{width: 13em; visibility: visible;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
