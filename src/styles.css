@@ -485,6 +485,21 @@ body {
     box-shadow: 0 !important;
   }
 
+  #profile{
+    display: none;
+  }
+
+  ul#profile{
+    list-style-type: none;
+    text-align: left;
+    font-size: 14px;
+    padding-inline-start: 10px;
+  }
+
+  ul#profile li{
+    font-family: 'Trebuchet MS', verdana, arial, sans-serif;
+  }
+
   #create-post{
     background-color:#a1badb;
     padding: 5px 15px;
