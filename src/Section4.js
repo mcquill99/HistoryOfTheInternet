@@ -93,7 +93,7 @@ class Section4 extends React.Component {
                   <p>As of 2019, 19.6% of live websites use Bootstrap. That amounts to 1,518,207,412 websites!</p>
                 </div>
               </div>
-              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
+              <button onClick={GoToFront} className="mt-4 mx-auto next-btn rounded-pill">
                 <p className="mx-auto p-1">Next</p>
                 </button>
             </div>      
@@ -152,7 +152,7 @@ class Section4 extends React.Component {
 
               <br/>
 
-              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
+              <button onClick={GoToBuilder} className="mt-4 mx-auto next-btn rounded-pill">
               <FontAwesomeIcon icon={faChevronDown} style={{color:'white'}}/>
   
                 </button>
@@ -199,7 +199,17 @@ class Section4 extends React.Component {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
               </a>
+
+              <div style={{textAlign:'center'}}>
+
+              <button onClick={GoToMobile} className="mt-4 mx-auto next-btn rounded-pill">
+              <FontAwesomeIcon icon={faChevronDown} style={{color:'white'}}/>
+  
+                </button>
+
+                </div>
             </div>
+
 
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
@@ -228,7 +238,7 @@ class Section4 extends React.Component {
 
             {/* CARDS */}
             <h1>Popular Web Browsers</h1>
-            <div className="card-deck pb-5 mb-5 mx-auto" id="card-section" width={'90%'}>
+            <div className="card-deck mb-4 mx-auto" id="card-section" width={'90%'}>
               <div className="card">
                 <img className="card-img-top" src={chrome} alt="Card image cap"/>
                 <div className="card-body">
@@ -252,6 +262,15 @@ class Section4 extends React.Component {
                 </div>
               </div>
             </div>
+            <div style={{textAlign:'center'}}>
+
+              <button onClick={GoToFlash} className="mx-auto next-btn rounded-pill">
+              <FontAwesomeIcon icon={faChevronDown} style={{color:'white'}}/>
+  
+                </button>
+                </div>
+
+            
 
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
@@ -270,8 +289,9 @@ class Section4 extends React.Component {
                   <p>Due to poor performance and security vulnerabilities, Adobe Flash was shut down on December 31, 2020 ending an era of online creativity.</p>
                 </div>
               </div>
-              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
-                <p className="mx-auto p-1">Next</p>
+              <button onClick={GoToUse} className="mt-4 mx-auto next-btn rounded-pill">
+              <FontAwesomeIcon icon={faChevronDown} style={{color:'white'}}/>
+  
                 </button>
             </div>      
 
@@ -360,9 +380,39 @@ function GoToBootstrap() {
   
 }
 
+function GoToFront() {
+  const element = document.getElementById("front-end-section");
+  element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  
+}
+
+function GoToBuilder() {
+  const element = document.getElementById("carouselExampleCaptions");
+  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  
+}
+
+function GoToMobile() {
+  const element = document.getElementById("mobile-section");
+  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  
+}
+
 function GoToCard() {
   const element = document.getElementById("card-section");
-  element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  
+}
+
+function GoToFlash() {
+  const element = document.getElementById("flash-section");
+  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  
+}
+
+function GoToUse() {
+  const element = document.getElementById("accordion");
+  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
   
 }
 
