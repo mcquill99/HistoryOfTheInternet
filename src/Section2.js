@@ -70,11 +70,11 @@ class Section2 extends React.Component {
                     <tr>
                       <td className="itemList">
                         <ul>
-                          <li><a href="https://web.archive.org/web/20060128025054if_/http://www.apple.com/macosx/features/safari/" target="_blank">Safari 1.0 launches </a></li>
-                          <li><a href='https://web.archive.org/web/20060504131806/http://www.archive.org/web/web.php'target="_blank">Wayback Machine builds an 'Internet Library'</a></li>
-                          <li><a  href='https://web.archive.org/web/20060127003234/http://flickr.com/'target="_blank">Flickr creates a photo sharing community</a></li>
-                          <li><a href='https://web.archive.org/web/20060315011601/http://www.mozilla.com/firefox/'target="_blank">Firefox launches as a secure browser</a></li>
-                          <li><a href="https://web.archive.org/web/20060114055946/http://reddit.com/" target="_blank">Reddit allows communities to flourish</a></li>
+                          <li><a href="https://web.archive.org/web/20060128025054if_/http://www.apple.com/macosx/features/safari/" target="_blank">✦ Safari 1.0 launches </a></li>
+                          <li><a href='https://web.archive.org/web/20060504131806/http://www.archive.org/web/web.php'target="_blank">✦ Wayback Machine builds an 'Internet Library'</a></li>
+                          <li><a  href='https://web.archive.org/web/20060127003234/http://flickr.com/'target="_blank">✦ Flickr creates a photo sharing community</a></li>
+                          <li><a href='https://web.archive.org/web/20060315011601/http://www.mozilla.com/firefox/'target="_blank">✦ Firefox launches as a secure browser</a></li>
+                          <li><a href="https://web.archive.org/web/20060114055946/http://reddit.com/" target="_blank">✦ Reddit allows communities to flourish</a></li>
                         </ul>
                         </td>
                     </tr>
@@ -92,11 +92,11 @@ class Section2 extends React.Component {
                     <tr>
                       <td className="itemList">
                         <ul>
-                          <li>6 Degrees was the first social media site</li>
-                          <li>Million Dollar Homepage became the first viral site</li>
-                          <li>Adobe Purchased Flash from Macromedia</li>
-                          <li>jQuery allowed for the first responsive sites</li>
-                          <li>The Term 'Human Computer Interaction' was first used in 2000</li>
+                          <li>✦ 6 Degrees was the first social media site</li>
+                          <li>✦ Million Dollar Homepage became the first viral site</li>
+                          <li>✦ Adobe purchased Flash from Macromedia</li>
+                          <li>✦ jQuery allowed for the first responsive sites</li>
+                          <li>✦ The term 'Human Computer Interaction' was first used in 2000</li>
                         </ul>
                         </td>
                     </tr>
@@ -139,9 +139,9 @@ class Section2 extends React.Component {
                     </td>
                     <td>
 
-                      <p>With the Introduction of HTML 3.2 on January 14th, 1997, we inch closer to modern web design! This is a monumental release for anyone who has used HTML, as it introduced the ever popular &lt;div&gt; tag. This, along side the release of CSS the month prior, created the first easy to use way of styling individual sections of a web page.</p>
-                      <p><br/> HTML 3.2 also added tables, which made the layout you see here possible! It allows for a table to defined as a collection of rows, which themselves can contain headings and cells.</p>
-                      <p><br/> HTML 4 was released less than a year later on December 18th, 1997. It was not as big of an update as 3.2, and mostly served to more well define HTML semantics.</p>
+                      <p>With the release of HTML 3.2 on January 14, 1997, we inch closer to modern web design! HTML 3.2's release was monumental for anyone, past or present, who has used HTML, as it introduced the ever so popular &lt;div&gt; tag. This, alongside the release of CSS the month prior, created the first easy to use way of styling individual sections of a web page.</p>
+                      <p><br/> HTML 3.2 also added tables, which made the layout you see here possible! Tables can be defined as a collection of rows, which each can contain headings and cells.</p>
+                      <p><br/> HTML 4 was released less than a year later on December 18, 1997. It was not as big of an update as 3.2 and mostly served to more clearly define HTML semantics.</p>
                     </td>
                     </tr>
                   </tbody>
@@ -158,7 +158,7 @@ class Section2 extends React.Component {
 
                             <div className="column entry">
                               <img src='https://lh3.googleusercontent.com/proxy/3sDxOEeyXMydqT0y5kYo9h7xxzUpCZL6NeVgX9tXs8ySz_z1O8ojX6nScRsHocovh7zVrTDohylai6xeEJ-pEmEkbL8Oq9SnYnB3nSX-fz2EzHmW6bdY9q8wI1ztJNdxj5vjVyHPxRu9HC7oQV59ew' style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>CSS 2 was later released in May of 1998, which allowed for even more web page customization. It allowed for new powerful positioning tools such as setting elements to relative, absolute, or fixed positioning, and added the z-axis, which let elements be stacked on top of one another.</p>
+                              <p style={{float: 'right'}}>CSS 2 was then released in May of 1998, allowing for even more web page customization. It featured new powerful positioning tools, such as the ability to set elements to relative, absolute, or fixed positioning, and also added the z-axis, which lets elements be stacked on top of one another.</p>
                             </div>
 
                             <div className='column' style={{width:'10%'}}></div>
@@ -184,14 +184,14 @@ class Section2 extends React.Component {
 
                             <div className="column entry">
                               <img src='https://vanseodesign.com/blog/wp-content/uploads/2011/06/internet-explorer-6-logo.jpg' style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>You may recognize this background as the default background for Windows XP, which launched on October 25, 2001. Along with it came the release of Internet Explorer 6, the browser you're reading this out of! Even though at the time it was known for having many security flaws, it was the top used browser for the majority of the 2000s, being used by 80% of people surfing the web in 2004.  </p>
+                              <p style={{float: 'right'}}>You may recognize this background as the default background for Windows XP, which launched on October 25, 2001. Along with it came the release of Internet Explorer 6, the browser you're reading this out of! Even though at the time it was known for having many security flaws, Internet Explorer 6 was the top used browser for the majority of the 2000s, being used by 80% of people surfing the web in 2004.  </p>
                             </div>
 
                             <div className='column' style={{width:'10%'}}></div>
                             
                             <div className="column entry">
                               <img src='https://i.kym-cdn.com/entries/icons/original/000/010/905/myspace.png' style={{width:'50%'}}/>
-                              <p style={{float: 'right'}}>This era also saw the birth of Social Media, although not the golden age of it. Easily the most notable platform of this type at the time was MySpace. Released on August 1st, 2003, it allowed anyone with an account to connect with friends, meet new friends, and discover new music! It was so popular it gained more than one million users in less than a year after its launch. </p>    
+                              <p style={{float: 'right'}}>This era also saw the birth of social media. Easily the most notable platform at the time was MySpace. Released on August 1, 2003, it allowed anyone with an account to connect with friends, meet new friends, and discover new music! It was so popular; it gained more than one million users in less than a year after its launch. </p>    
                             </div>
                           </div>
                         </td>
@@ -239,10 +239,10 @@ class Section2 extends React.Component {
                     <tr>
                       <td className="itemList">
                         <ul>
-                          <li>Steve Jobs Unveils iPhone </li>
-                          <li>Bill Gates Steps Down as Microsoft CEO</li>
-                          <li>Jack Dorsey Founds Twitter</li>
-                          <li>Mark Zucker Begins Work on FaceBook</li>
+                          <li>✦ Steve Jobs Unveils iPhone </li>
+                          <li>✦ Bill Gates Steps Down as Microsoft CEO</li>
+                          <li>✦ Jack Dorsey Founds Twitter</li>
+                          <li>✦ Mark Zuckerberg Begins Work on FaceBook</li>
                         </ul>
                         </td>
                     </tr>
