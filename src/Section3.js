@@ -4,6 +4,7 @@ import backgroundThree from "./images/mac-leopard-blur.png";
 import logoEraThree from "./images/logoEraThree.png";
 import marathon from "./images/marathon.jpeg";
 import web2 from "./images/web2.png";
+import skiPic from "./images/ski.jpeg";
 import $ from 'jquery';
 
 class Section3 extends React.Component {
@@ -25,7 +26,7 @@ class Section3 extends React.Component {
     
 
           <div className="feed" id="loginPageFeed">
-              <img src={marathon} width={'100%'} height={'auto'}/>
+              <img src={skiPic} width={'100%'} height={'auto'}/>
               <br></br>
               <div className="socialMediaDescription">
               By the late 2000s, the number of users on social media had skyrocketed. Login to explore this era.
