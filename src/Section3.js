@@ -50,7 +50,7 @@ class Section3 extends React.Component {
              <div id="post-list">
 
               <div className="socialPost">
-                <h2>Web 2.0 is here!</h2>
+                <h1>Web 2.0 is here!</h1>
                 <p>Web 2.0 refers to websites that emphasize user-generated content and participatory culture for end users.
                   Users interact through social media feeds with user-generated content. 
                   Example of web 2.0 sites include Facebook, YouTube, Flickr, and Wordpress.
@@ -149,7 +149,7 @@ function WritePost() {
   if(title.value && content.value){
     const newDiv = document.createElement("div");
     newDiv.className = "socialPost"
-    const newTitle = document.createElement("H2");
+    const newTitle = document.createElement("H1");
     newTitle.innerHTML = title.value
     const newBody = document.createTextNode(content.value);
 
