@@ -37,7 +37,7 @@ class Section3 extends React.Component {
               <div className="newsFeedLabel">Feed</div>
 
               <div className="showPost" id="show-post">
-              <input type="submit" id="submit-post" onClick={showPost} value="Create New Post"/>
+              <input type="submit" id="showPostButton" onClick={showPost} value="Create New Post"/>
               </div>
               <div className="createPost" id="create-post">
                 <h2>Create New Post</h2>

@@ -537,6 +537,15 @@ body {
   
 }
 
+#show-post{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+
+
 #error{
   color: red;
   display: none;
