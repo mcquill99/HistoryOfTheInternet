@@ -573,6 +573,13 @@ body {
     text-align: center;
 }
 
+.frameFour h2 {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;  
+  font-size: 36px !important;
+  color: black;
+  text-align: center;
+}
+
 .frameFour h4 {
   font-family: Futura,Trebuchet MS,Arial,sans-serif;  
   color: black;
