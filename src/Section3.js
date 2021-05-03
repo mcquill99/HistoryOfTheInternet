@@ -88,7 +88,7 @@ class Section3 extends React.Component {
 
             </div>
             <div className="sidebar">
-              <p id="sign-in">Sign into account</p>
+              <p id="sign-in">Sign in here</p>
               <input type="text" placeholder="Enter Username" id="uname" style={{width:'80%'}} required/>
               <br/><br/>
               <input type="password" placeholder="Enter Password" id="pwd" style={{width:'80%'}} required/>
