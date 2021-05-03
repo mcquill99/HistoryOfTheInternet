@@ -18,6 +18,8 @@ import godaddy from "./images/godaddy.jpeg";
 import wordpress from "./images/wordpress.png";
 import mobile from "./images/mobile.png";
 import flash from "./images/flash.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 class Section4 extends React.Component {
   render() {
@@ -111,7 +113,12 @@ class Section4 extends React.Component {
                     <img src={react} className="img-fluid"/>
                 </div>
                 <div className="text-center">
-                  <button type="button" id="react" class="btn btn-lg" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">React</button>
+                  <button type="button" id="react" class="btn btn-lg" data-toggle="collapse" data-target="#collapseReact" aria-expanded="false" aria-controls="collapseReact">React</button>
+                </div>
+                <div class="collapse" id="collapseReact">
+                  <div class="card card-body">
+                  React is a Javascript library developed by Facebook which allows users to build UI components. It is developed by Facebook.
+                  </div>
                 </div>
               </div>
 
@@ -120,7 +127,12 @@ class Section4 extends React.Component {
                     <img src={angular} className="img-fluid"/>
                 </div>
                 <div className="text-center">
-                  <button type="button" id="angular" class="btn btn-lg btn-danger" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Angular</button>
+                  <button type="button" id="angular" class="btn btn-lg btn-danger" data-toggle="collapse" data-target="#collapseAngular" aria-expanded="false" aria-controls="collapseAngular">Angular</button>
+                </div>
+                <div class="collapse" id="collapseAngular">
+                  <div class="card card-body">
+                  AngularJS is a structural framework for developing dynamic web apps. It is developed by Google.
+                  </div>
                 </div>
               </div>
 
@@ -129,12 +141,20 @@ class Section4 extends React.Component {
                     <img src={vue} className="img-fluid"/>
                 </div>
                 <div className="text-center">
-                  <button type="button" id="vue" class="btn btn-lg" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Vue</button>
+                  <button type="button" id="vue" class="btn btn-lg" data-toggle="collapse" data-target="#collapseVue" aria-expanded="false" aria-controls="collapseVue">Vue</button>
+                </div>
+                <div class="collapse" id="collapseVue">
+                  <div class="card card-body">
+                  Vue.js is another Javascript framework for building user interfaces and single-page applications. It is developed by ex-Google employee Evan You.
+                  </div>
                 </div>
               </div>
 
+              <br/>
+
               <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
-                <p className="mx-auto p-1">Next</p>
+              <FontAwesomeIcon icon={faChevronDown} style={{color:'white'}}/>
+  
                 </button>
             </div>      
 
