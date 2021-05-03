@@ -19,8 +19,7 @@ class Section3 extends React.Component {
           </div>
           <div className="whiteHolder">
             <div className="feed">
-              this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed 
-
+              this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed this is the feed
             </div>
             <div className="sidebar">
               this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar this is the sidebar 
