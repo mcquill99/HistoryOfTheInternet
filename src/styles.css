@@ -489,6 +489,7 @@ body {
     background-color:#a1badb;
     padding: 5px 15px;
     margin-bottom: 30px;
+    display: none;
 
   }
 
@@ -535,6 +536,15 @@ body {
   margin-bottom: 20px;
   
 }
+
+#show-post{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+
 
 #error{
   color: red;

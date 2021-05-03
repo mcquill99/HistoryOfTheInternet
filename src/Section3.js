@@ -36,6 +36,9 @@ class Section3 extends React.Component {
             <div className="feed" id="loggedInFeed" style={{display:'none'}}>
               <div className="newsFeedLabel">Feed</div>
 
+              <div className="showPost" id="show-post">
+              <input type="submit" id="showPostButton" onClick={showPost} value="Create New Post"/>
+              </div>
               <div className="createPost" id="create-post">
                 <h2>Create New Post</h2>
                 <input type="text" placeholder="Post Title" id="title" style={{width:'75%'}} required/>
@@ -187,12 +190,20 @@ function WritePost() {
     title.value =  "";
     content.value = "";
 
+    const postingTool = document.getElementById("create-post");
+    postingTool.style.display = 'none';
+
 }   
   else{
     document.getElementById("error").style.display = "block";
   }
  
   
+}
+
+function showPost(){
+  var postingTool = document.getElementById("create-post")
+  postingTool.style.display = 'block';
 }
 
 export default Section3;
