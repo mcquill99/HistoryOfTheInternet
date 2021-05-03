@@ -486,7 +486,7 @@ body {
   }
 
   #create-post{
-    background-color:lightblue;
+    background-color:#a1badb;
     padding: 5px 15px;
     margin-bottom: 30px;
 
@@ -528,7 +528,7 @@ body {
     border-radius: 5px;
     border:#369 2px solid;
     box-shadow: 0 !important;
-  margin-left: 450px;
+  margin-left: 440px;
   margin-bottom: 20px;
   
 }
