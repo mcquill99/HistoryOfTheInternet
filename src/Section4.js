@@ -8,6 +8,13 @@ import bootstrapPic from "./images/bootstrap.png";
 import chrome from "./images/chrome.png";
 import safari from "./images/safari.png";
 import firefox from "./images/firefox.png";
+import wix from "./images/wix.png";
+import weebly from "./images/weebly.jpeg";
+import squarespace from "./images/squarespace.jpeg";
+import godaddy from "./images/godaddy.jpeg";
+import wordpress from "./images/wordpress.png";
+import mobile from "./images/mobile.png";
+import flash from "./images/flash.jpg";
 
 class Section4 extends React.Component {
   render() {
@@ -88,6 +95,92 @@ class Section4 extends React.Component {
 
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
+            {/* FRONT-END */}
+            <div className="row pb-5" id="front-end-section">
+              <div className="col-12">
+                <h1>Front-end frameworks</h1>
+                <h4>Click on the buttons to learn more.</h4>
+                <br/>
+              </div>
+              
+              <div className="col-md-6 d-flex justify-content-center">
+              <button type="button" id="react" class="btn btn-lg" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">React</button>
+                  </div>
+              <div className="col-md-6 d-flex justify-content-center">
+              <button type="button" id="angular" class="btn btn-lg btn-danger" data-toggle="popover" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Angular</button>
+              </div>
+              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
+                <p className="mx-auto p-1">Next</p>
+                </button>
+            </div>      
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+            {/* CAROUSEL */}
+            <div className="col-12">
+                <h1>Website Builders</h1>
+                <h4>Today, anyone can build a website without needing any coding experience. Website builders are software that lets users drag-and-drop elements onto a black page to create their own sites.</h4>
+                <br/>
+              </div>
+            <div id="carouselExampleCaptions" className="carousel slide w-90" data-ride="carousel">
+              <ol className="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+              </ol>
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img src={weebly} className="d-block w-100" alt="..."/>
+                </div>
+                <div className="carousel-item">
+                  <img src={squarespace} className="d-block w-100" alt="..."/>
+                </div>
+                <div className="carousel-item">
+                  <img src={wix} className="d-block w-100" alt="..."/>
+                </div>
+                <div className="carousel-item">
+                  <img src={godaddy} className="d-block w-100" alt="..."/>
+                </div>
+                <div className="carousel-item">
+                  <img src={wordpress} className="d-block w-100" alt="..."/>
+                </div>
+              </div>
+              <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+            {/* Mobile friendly */}
+            <div className="row pb-5" id="mobile-section">
+              
+              <div className="col-md-6 my-auto">
+                <div className="row text-center">
+                  <h1 className="mx-auto">Mobile-first</h1>
+                  <p className="mx-auto">The World Wide Web goes mobile.</p>
+                  <br/><br/><br/>
+                  <p>The dominance of the iPhone leads to a mobile-revolution. Many websites are redesigned with a mobile-friendly view.</p>
+                  </div>
+                </div>
+              <div className="col-md-6 d-flex justify-content-center">
+                <img className='img-fluid' src={mobile} />
+              </div>
+              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
+                <p className="mx-auto p-1">Next</p>
+                </button>
+            </div>
+
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>      
+
 
             {/* CARDS */}
             <h1>Popular Web Browsers</h1>
@@ -115,6 +208,30 @@ class Section4 extends React.Component {
                 </div>
               </div>
             </div>
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+            {/* Flash */}
+            <div className="row pb-5" id="flash-section">
+              
+              <div className="col-md-6 intro d-flex justify-content-center my-auto">
+                  <img className='img-fluid' src={flash} width={'80%'} />
+                  </div>
+              <div className="col-md-6">
+                <div className="row text-left">
+                  <h1>Goodbye Adobe Flash</h1>
+                  <p>Initially released in 1996, Adobe Flash Player was a popular web plugin capable of displaying online multimedia content. 
+                    It was commonly used for web games, animations, and GUI elements embedded in web pages.</p>
+                  <br/><br/>
+                  <p>Due to poor performance and security vulnerabilities, Adobe Flash was shut down on December 31, 2020 ending an era of online creativity.</p>
+                </div>
+              </div>
+              <button onClick={GoToCard} className="mt-4 mx-auto next-btn rounded-pill">
+                <p className="mx-auto p-1">Next</p>
+                </button>
+            </div>      
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
             {/* ACCORDION */}
             <div id="accordion">
@@ -163,45 +280,7 @@ class Section4 extends React.Component {
               </div>
             </div>
 
-            {/* CAROUSEL */}
-            <div id="carouselExampleCaptions" className="carousel slide w-90" data-ride="carousel">
-              <ol className="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-              </ol>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={backgroundFour} className="d-block w-100" alt="..."/>
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img src={backgroundFour} className="d-block w-100" alt="..."/>
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img src={backgroundFour} className="d-block w-100" alt="..."/>
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-              </div>
-              <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
-              </a>
-              <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
-              </a>
-            </div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
             
           </div>
