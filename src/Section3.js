@@ -30,7 +30,7 @@ class Section3 extends React.Component {
 
 
             
-            <div className="feed" id="loggedInFeed" style="display:none;">
+            <div className="feed" id="loggedInFeed" style={{display:'none'}}>
               alternate div, trying to switch to this. delete this one if you delete anything, the feed with id loginPageFeed is working fine on its own
 
 
@@ -40,7 +40,7 @@ class Section3 extends React.Component {
             </div>
             <div className="sidebar">
               <p>Sign into account</p>
-              <button id="loginButton">Log in</button>
+              <button id="loginButton" onClick={SwitchDiv}>Log in</button>
               
             </div>
             
@@ -53,6 +53,19 @@ class Section3 extends React.Component {
 
     );
   }
+}
+
+function SwitchDiv() {
+  const login_screen = document.getElementById("loginPageFeed");
+  const logged_in_screen = document.getElementById("loggedInFeed");
+  const login_btn = document.getElementById("loginButton");
+
+  login_screen.style.display = 'none';
+  logged_in_screen.style.display = 'block';
+
+  // If u want to remove login button, too. 
+  // login_btn.style.display = 'none';
+  
 }
 
 /* this is the jquery i was trying to use to switch the div content */
