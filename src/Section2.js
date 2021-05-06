@@ -5,6 +5,7 @@ import back from "./images/back.jpg";
 import pizzaHut from "./images/pizza-hut-1998.gif";
 import netflix from "./images/netflix.gif";
 import y2kLogo from "./images/wwwPurple.png";
+import css2 from "./images/css2.jpg"
 import placeholder from "./images/placeholder.png";
 
 class Section2 extends React.Component {
@@ -153,7 +154,7 @@ class Section2 extends React.Component {
                           <div className="row">
 
                             <div className="column entry">
-                              <img src='https://lh3.googleusercontent.com/proxy/oN2QINUBkR5MCfjOi9ehIlrAIfYtSC6pe7sghYLmrjOFB3gcDQkSL8Jn5IBC17GpCzMVa_uG8HBDyQsRB2Z-AbDYYJOVp2VUlOcFnQpACfXIHxCrd0HSAH0i74FrZgU-Qag2K-HhOUgcimDsAipZrg' style={{width:'50%'}}/>
+                              <img src={css2} style={{width:'50%'}}/>
                               <p style={{float: 'right'}}>CSS 2 was then released in May of 1998, allowing for even more web page customization. It featured new powerful positioning tools, such as the ability to set elements to relative, absolute, or fixed positioning, and also added the z-axis, which lets elements be stacked on top of one another.</p>
                             </div>
 
