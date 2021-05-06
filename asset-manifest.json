@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HistoryOfTheInternet/static/css/main.44d4f9a9.chunk.css",
-    "main.js": "/HistoryOfTheInternet/static/js/main.9c41a4f9.chunk.js",
-    "main.js.map": "/HistoryOfTheInternet/static/js/main.9c41a4f9.chunk.js.map",
+    "main.js": "/HistoryOfTheInternet/static/js/main.40580c17.chunk.js",
+    "main.js.map": "/HistoryOfTheInternet/static/js/main.40580c17.chunk.js.map",
     "runtime-main.js": "/HistoryOfTheInternet/static/js/runtime-main.94ae08d9.js",
     "runtime-main.js.map": "/HistoryOfTheInternet/static/js/runtime-main.94ae08d9.js.map",
     "static/js/2.1ee402ce.chunk.js": "/HistoryOfTheInternet/static/js/2.1ee402ce.chunk.js",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.94ae08d9.js",
     "static/js/2.1ee402ce.chunk.js",
     "static/css/main.44d4f9a9.chunk.css",
-    "static/js/main.9c41a4f9.chunk.js"
+    "static/js/main.40580c17.chunk.js"
   ]
 }
