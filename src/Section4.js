@@ -163,7 +163,7 @@ class Section4 extends React.Component {
             {/* CAROUSEL */}
             <div className="col-12">
                 <h1>Website Builders</h1>
-                <h4 id="builder-section">Today, anyone can build a website without needing any coding experience. Website builders are software that lets users drag-and-drop elements onto a black page to create their own sites.</h4>
+                <h4 id="builder-section">Today, anyone can build a website without needing any coding experience. Website builders are software that let users drag-and-drop elements onto a blank page to create their own sites.</h4>
                 <br/>
               </div>
             <div id="carouselExampleCaptions" className="carousel slide w-90" data-ride="carousel">
