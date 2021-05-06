@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HistoryOfTheInternet/static/css/main.44d4f9a9.chunk.css",
-    "main.js": "/HistoryOfTheInternet/static/js/main.40580c17.chunk.js",
-    "main.js.map": "/HistoryOfTheInternet/static/js/main.40580c17.chunk.js.map",
+    "main.js": "/HistoryOfTheInternet/static/js/main.6c397499.chunk.js",
+    "main.js.map": "/HistoryOfTheInternet/static/js/main.6c397499.chunk.js.map",
     "runtime-main.js": "/HistoryOfTheInternet/static/js/runtime-main.94ae08d9.js",
     "runtime-main.js.map": "/HistoryOfTheInternet/static/js/runtime-main.94ae08d9.js.map",
     "static/js/2.1ee402ce.chunk.js": "/HistoryOfTheInternet/static/js/2.1ee402ce.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/bigsurblur.1e99d17a.png": "/HistoryOfTheInternet/static/media/bigsurblur.1e99d17a.png",
     "static/media/bootstrap.d5210cde.png": "/HistoryOfTheInternet/static/media/bootstrap.d5210cde.png",
     "static/media/chrome.be937ce0.png": "/HistoryOfTheInternet/static/media/chrome.be937ce0.png",
+    "static/media/css2.098da474.jpg": "/HistoryOfTheInternet/static/media/css2.098da474.jpg",
     "static/media/firefox.86440893.png": "/HistoryOfTheInternet/static/media/firefox.86440893.png",
     "static/media/flash.e10c97ec.jpg": "/HistoryOfTheInternet/static/media/flash.e10c97ec.jpg",
     "static/media/frameFour.f646dd4d.png": "/HistoryOfTheInternet/static/media/frameFour.f646dd4d.png",
@@ -45,6 +46,6 @@
     "static/js/runtime-main.94ae08d9.js",
     "static/js/2.1ee402ce.chunk.js",
     "static/css/main.44d4f9a9.chunk.css",
-    "static/js/main.40580c17.chunk.js"
+    "static/js/main.6c397499.chunk.js"
   ]
 }
