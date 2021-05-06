@@ -153,7 +153,7 @@ class Section2 extends React.Component {
                           <div className="row">
 
                             <div className="column entry">
-                              <img src='https://lh3.googleusercontent.com/proxy/3sDxOEeyXMydqT0y5kYo9h7xxzUpCZL6NeVgX9tXs8ySz_z1O8ojX6nScRsHocovh7zVrTDohylai6xeEJ-pEmEkbL8Oq9SnYnB3nSX-fz2EzHmW6bdY9q8wI1ztJNdxj5vjVyHPxRu9HC7oQV59ew' style={{width:'50%'}}/>
+                              <img src='https://lh3.googleusercontent.com/proxy/oN2QINUBkR5MCfjOi9ehIlrAIfYtSC6pe7sghYLmrjOFB3gcDQkSL8Jn5IBC17GpCzMVa_uG8HBDyQsRB2Z-AbDYYJOVp2VUlOcFnQpACfXIHxCrd0HSAH0i74FrZgU-Qag2K-HhOUgcimDsAipZrg' style={{width:'50%'}}/>
                               <p style={{float: 'right'}}>CSS 2 was then released in May of 1998, allowing for even more web page customization. It featured new powerful positioning tools, such as the ability to set elements to relative, absolute, or fixed positioning, and also added the z-axis, which lets elements be stacked on top of one another.</p>
                             </div>
 
